@@ -40,7 +40,7 @@ The elements are fully responsive, thanks to using Gutenberg editor.
 I used the content and images from the example page.
 ------------------------------------------------------------------------------------
 
-In conclusion, I managed to implement most of the tasks and their functionality, with some small exceptions which I spoke about earlier. It took me around 5 to 6 hours to get all the tasks done.
+In conclusion, I managed to implement most of the tasks and their functionality, with some small exceptions which I spoke about earlier. It took me around 6 to 7 hours to get all the tasks done.
 
 Thank you!
 
