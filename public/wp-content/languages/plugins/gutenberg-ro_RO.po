@@ -1,0 +1,3269 @@
+# Translation of Plugins - Gutenberg - Stable (latest release) in Romanian
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-05-23 10:35:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ro\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
+
+#: lib/experimental/blocks.php:104
+msgid "Block name must be a string or array."
+msgstr "Numele blocului trebuie să fie un șir sau un tablou."
+
+#: build/widgets/blocks/widget-group/block.json
+msgctxt "block title"
+msgid "Widget Group"
+msgstr "Grup de piese"
+
+#: build/edit-widgets/blocks/widget-area/block.json
+msgctxt "block title"
+msgid "Widget Area"
+msgstr "Zonă piese"
+
+#: lib/experiments-page.php:65
+msgid "Test the custom dataviews in the pages page."
+msgstr "Testează vizualizările de date personalizate în pagina Pagini."
+
+#: lib/experiments-page.php:60
+msgid "Custom dataviews"
+msgstr "Vizualizări de date personalizate"
+
+#. translators: 1: A URL to a post, 2: Hidden accessibility text: Post title
+#: build/block-library/blocks/latest-posts.php:161
+msgid "… <a class=\"wp-block-latest-posts__read-more\" href=\"%1$s\" rel=\"noopener noreferrer\">Read more<span class=\"screen-reader-text\">: %2$s</span></a>"
+msgstr "… <a class=\"wp-block-latest-posts__read-more\" href=\"%1$s\" rel=\"noopener noreferrer\">Citește mai mult<span class=\"screen-reader-text\">: %2$s</span></a>"
+
+#: lib/compat/wordpress-6.6/rest-api.php:68
+msgid "An array of the class names for the post container element."
+msgstr "Un tablou cu numele claselor pentru elementul container articol."
+
+#: lib/compat/wordpress-6.6/post.php:36
+msgid "Template part updated."
+msgstr "Am actualizat partea de șablon."
+
+#: lib/compat/wordpress-6.6/post.php:24
+msgid "Template updated."
+msgstr "Am actualizat șablonul."
+
+#: lib/block-supports/elements.php:123
+msgid "Use as a `pre_render_block` filter is deprecated. Use with `render_block_data` instead."
+msgstr "Folosirea filtrului `pre_render_block` este considerată învechită. Folosește în locul lui `render_block_data`."
+
+#: lib/experiments-page.php:120
+msgid "Enable full page client-side navigation"
+msgstr "Activează navigarea client-side pe întreaga pagină"
+
+#: lib/experiments-page.php:125
+msgid "Enable full page client-side navigation using the Interactivity API"
+msgstr "Activează navigarea client-side pe întreaga pagină folosind Interactivity API"
+
+#: lib/experiments-page.php:101
+msgid "Test enhancements to the Grid block that let you move and resize items in the editor canvas."
+msgstr "Testează îmbunătățirile aduse la blocul Grilă care îți permit să muți și să redimensionezi elementele în panoul editorului."
+
+#: lib/experiments-page.php:96
+msgid "Grid interactivity "
+msgstr "Interactivitate grilă "
+
+#: lib/compat/wordpress-6.5/fonts/fonts.php:192
+msgctxt "font category"
+msgid "Monospace"
+msgstr "Monospace"
+
+#: lib/compat/wordpress-6.5/fonts/fonts.php:188
+msgctxt "font category"
+msgid "Handwriting"
+msgstr "Handwriting"
+
+#: lib/compat/wordpress-6.5/fonts/fonts.php:184
+msgctxt "font category"
+msgid "Serif"
+msgstr "Serif"
+
+#: lib/compat/wordpress-6.5/fonts/fonts.php:180
+msgctxt "font category"
+msgid "Display"
+msgstr "Display"
+
+#: lib/compat/wordpress-6.5/fonts/fonts.php:176
+msgctxt "font category"
+msgid "Sans Serif"
+msgstr "Sans Serif"
+
+#: lib/compat/wordpress-6.5/fonts/fonts.php:171
+msgctxt "font collection name"
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: lib/block-supports/typography.php:483
+msgid "`boolean` type for second argument `$settings` is deprecated. Use `array()` instead."
+msgstr "Tipul „boolean” pentru al doilea argument „$settings” este învechit. Folosește în loc „array()”."
+
+#: build/block-library/blocks/block/block.json
+msgctxt "block description"
+msgid "Reuse this design across your site."
+msgstr "Reutilizează acest design pe site-ul tău."
+
+#. translators: %s: Name of parameter being updated:
+#. font_family_settings[slug]".
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:116
+msgid "%s cannot be updated."
+msgstr "%s nu poate fi actualizat."
+
+#. translators: %s: Parameter name: "font_family_settings".
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:99
+msgid "%s parameter must be a valid JSON string."
+msgstr "Parametrul %s trebuie să fie un șir JSON valid."
+
+#. translators: 1: File key (e.g. "file-0") in the request data, 2: Font face
+#. source parameter name: "font_face_settings[src]".
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:231
+msgid "File %1$s must be used in %2$s."
+msgstr "Fișierul %1$s trebuie să fie folosit în %2$s."
+
+#. translators: 1: Font face source parameter name: "font_face_settings[src]",
+#. 2: The invalid src value.
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:219
+msgid "%1$s value \"%2$s\" must be a valid URL or file reference."
+msgstr "Valoarea „%2$s” pentru %1$s trebuie să fie un URL valid sau o referință validă la un fișier."
+
+#. translators: %s: Font face source parameter name: "font_face_settings[src]".
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:209
+msgid "%s values must be non-empty strings."
+msgstr "Valorile %s trebuie să fie șiruri de caractere care nu sunt goale."
+
+#. translators: %s: Name of the missing font face settings parameter, e.g.
+#. "font_face_settings[src]".
+#. translators: %s: Name of the empty font family setting parameter, e.g.
+#. "font_family_settings[slug]".
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:193
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:136
+msgid "%s cannot be empty."
+msgstr "%s nu poate fi gol."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-collections-controller.php:319
+msgid "Sorry, you are not allowed to access font collections."
+msgstr "Regret, nu ai voie să accesezi colecțiile de fonturi."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-collections-controller.php:149
+msgid "Font collection not found."
+msgstr "Nu am găsit colecția de fonturi."
+
+#: lib/compat/wordpress-6.5/block-bindings/class-wp-block-bindings-registry.php:155
+msgid "The \"get_value_callback\" parameter must be a valid callback."
+msgstr "Parametrul „get_value_callback” trebuie să fie un apel-înapoi valid."
+
+#: lib/compat/wordpress-6.5/block-bindings/class-wp-block-bindings-registry.php:145
+msgid "The $source_properties must contain a \"get_value_callback\"."
+msgstr "$source_properties trebuie să conțină un „get_value_callback”."
+
+#: lib/compat/wordpress-6.5/block-bindings/class-wp-block-bindings-registry.php:135
+msgid "The $source_properties must contain a \"label\"."
+msgstr "$source_properties trebuie să conțină „label”."
+
+#. translators: %d: A post id.
+#: lib/compat/wordpress-6.5/class-gutenberg-rest-global-styles-revisions-controller-6-5.php:76
+msgid "The revision does not belong to the specified parent with id of \"%d\""
+msgstr "Revizia nu aparține părintelui specificat cu ID-ul „%d”."
+
+#: lib/compat/wordpress-6.5/block-bindings/class-wp-block-bindings-registry.php:175
+msgid "The $source_properties array contains invalid properties."
+msgstr "Tabloul $source_properties conține proprietăți care nu sunt valide."
+
+#: lib/compat/wordpress-6.5/block-bindings/class-wp-block-bindings-registry.php:165
+msgid "The \"uses_context\" parameter must be an array."
+msgstr "Parametrul „uses_context” trebuie să fie un tablou."
+
+#: lib/compat/wordpress-6.5/fonts/fonts.php:59
+msgid "Font Face"
+msgstr "Font-face"
+
+#: lib/compat/wordpress-6.5/fonts/fonts.php:58
+msgid "Font Faces"
+msgstr "Font-face"
+
+#: lib/compat/wordpress-6.5/fonts/fonts.php:26
+msgid "Font Families"
+msgstr "Familii de fonturi"
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:434
+msgid "font-family declaration in theme.json format, encoded as a string."
+msgstr "Declarația font-family în formatul theme.json, codificată ca un șir de caractere."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:309
+msgid "The IDs of the child font faces in the font family."
+msgstr "ID-urile Font-face copil din familia de fonturi."
+
+#. translators: %s: Font family slug.
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:192
+msgid "A font family with slug \"%s\" already exists."
+msgstr "Există deja o familie de fonturi cu descriptorul „%s”."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:74
+msgid "Sorry, you are not allowed to access this font family."
+msgstr "Regret, nu ai voie să accesezi această familie de fonturi."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:49
+msgid "Sorry, you are not allowed to access font families."
+msgstr "Regret, nu ai voie să accesezi familiile de fonturi."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:897
+#: build/edit-site/index.js:22181
+msgid "Sorry, you are not allowed to upload this file type."
+msgstr "Regret, nu ai voie să încarci acest tip de fișier."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:748
+msgid "font-face declaration in theme.json format, encoded as a string."
+msgstr "Declarația font-face în formatul theme.json, codificată ca un șir de caractere."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:659
+msgid "URL to a preview image of the font face."
+msgstr "URL la o imagine de previzualizare a Font-face."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:652
+msgid "CSS unicode-range value."
+msgstr "Valoare CSS pentru unicode-range."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:645
+msgid "CSS size-adjust value."
+msgstr "Valoare CSS pentru size-adjust."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:638
+msgid "CSS line-gap-override value."
+msgstr "Valoare CSS pentru line-gap-override."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:631
+msgid "CSS font-variation-settings value."
+msgstr "Valoare CSS pentru font-variation-settings."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:624
+msgid "CSS font-feature-settings value."
+msgstr "Valoare CSS pentru font-feature-settings."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:617
+msgid "CSS font-variant value."
+msgstr "Valoare CSS pentru font-variant."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:610
+msgid "CSS descent-override value."
+msgstr "Valoare CSS pentru descent-override."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:603
+msgid "CSS ascent-override value."
+msgstr "Valoare CSS pentru ascent-override."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:596
+msgid "CSS font-stretch value."
+msgstr "Valoare CSS pentru font-stretch."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:574
+msgid "Paths or URLs to the font files."
+msgstr "Căi sau URL-uri la fișierele pentru fonturi."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:559
+msgid "CSS font-display value."
+msgstr "Valoare CSS pentru font-display."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:549
+msgid "List of available font weights, separated by a space."
+msgstr "Listă cu grosimile disponibile pentru fonturi, separate cu un spațiu."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:541
+msgid "CSS font-style value."
+msgstr "Valoare CSS pentru font-style."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:533
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:338
+msgid "CSS font-family value."
+msgstr "Valoare CSS pentru font-family."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:528
+msgid "font-face declaration in theme.json format."
+msgstr "Declarație font-face în formatul theme.json."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:513
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:301
+msgid "Version of the theme.json schema used for the typography settings."
+msgstr "Versiunea schemei theme.json folosită în setările pentru tipografice."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:342
+msgid "A font face matching those settings already exists."
+msgstr "Există deja un Font-face care se potrivește cu acele setări."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:345
+msgid "URL to a preview image of the font family."
+msgstr "URL la o imagine de previzualizare a familiei de fonturi."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:324
+msgid "Name of the font family preset, translatable."
+msgstr "Numele prestabilit al familiei de fonturi, care poate fi tradus."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:319
+msgid "font-face definition in theme.json format."
+msgstr "Definiția font-face în formatul theme.json."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:331
+msgid "Kebab-case unique identifier for the font family preset."
+msgstr "Identificator unic pentru kebab-case pentru presetarea familiei de fonturi."
+
+#. translators: %d: A post id.
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:303
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:417
+msgid "The font face does not belong to the specified font family with id of \"%d\"."
+msgstr "Font-face nu aparține familiei de fonturi specificate cu ID-ul „%d”."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:172
+msgid "font_face_settings parameter must be a valid JSON string."
+msgstr "Parametrul font_face_settings trebuie să fie un șir JSON valid."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:148
+msgid "Sorry, you are not allowed to access this font face."
+msgstr "Regret, nu ai voie să accesezi acest Font-face."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:123
+msgid "Sorry, you are not allowed to access font faces."
+msgstr "Regret, nu ai voie să accesezi Font-face."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:47
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:74
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:521
+msgid "The ID for the parent font family of the font face."
+msgstr "ID-ul pentru familia de fonturi părinte a Font-face."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-collections-controller.php:250
+msgid "The categories for the font collection."
+msgstr "Categoriile pentru colecția de fonturi."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-collections-controller.php:245
+msgid "The font families for the font collection."
+msgstr "Familiile de fonturi pentru colecția de fonturi."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-collections-controller.php:240
+msgid "The description for the font collection."
+msgstr "Descrierea pentru colecția de fonturi."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-collections-controller.php:235
+msgid "The name for the font collection."
+msgstr "Numele pentru colecția de fonturi."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-collections-controller.php:229
+msgid "Unique identifier for the font collection."
+msgstr "Identificator unic pentru colecția de fonturi."
+
+#: lib/compat/wordpress-6.5/class-wp-script-modules.php:84
+msgid "Entries in dependencies array must be either strings or arrays with an id key."
+msgstr "Intrările din tabloul cu dependențe trebuie să fie șiruri de caractere, fie tablouri cu o cheie ID."
+
+#. translators: %s: File path or URL to font collection JSON file.
+#: lib/compat/wordpress-6.5/fonts/class-wp-font-collection.php:124
+msgid "Font collection JSON file is invalid or does not exist."
+msgstr "Fișierul JSON pentru colecția de fonturi nu este valid sau nu există."
+
+#. translators: 1: Font collection slug, 2: Missing property name, e.g.
+#. "font_families".
+#: lib/compat/wordpress-6.5/fonts/class-wp-font-collection.php:230
+msgid "Font collection \"%1$s\" has missing or empty property: \"%2$s\"."
+msgstr "Colecția de fonturi „%1$s” nu are proprietatea „%2$s” sau ea este goală."
+
+#. translators: %s: Font collection slug.
+#: lib/compat/wordpress-6.5/fonts/class-wp-font-collection.php:61
+msgid "Font collection slug \"%s\" is not valid. Slugs must use only alphanumeric characters, dashes, and underscores."
+msgstr "Descriptorul colecție de fonturi „%s” nu este valid. Descriptorii trebuie să folosească numai caractere alfanumerice, cratime și liniuțe jos."
+
+#: lib/compat/wordpress-6.5/class-wp-script-modules.php:71
+msgid "Missing required id key in entry among dependencies array."
+msgstr "Lipsește cheia ID cerută în intrarea din tabloul cu dependențe."
+
+#: lib/compat/wordpress-6.5/block-bindings/post-meta.php:58
+#: build/editor/index.js:5951 build/editor/index.min.js:6003
+msgctxt "block bindings source"
+msgid "Post Meta"
+msgstr "Metadate articol"
+
+#: lib/compat/wordpress-6.6/block-bindings/pattern-overrides.php:55
+#: build/editor/index.js:1856 build/editor/index.min.js:1337
+msgctxt "block bindings source"
+msgid "Pattern Overrides"
+msgstr "Contramandări modele"
+
+#. translators: %s: Block bindings source name.
+#: lib/compat/wordpress-6.5/block-bindings/class-wp-block-bindings-registry.php:220
+msgid "Block binding \"%s\" not found."
+msgstr "Nu am găsit legăturile la blocul „%s”."
+
+#: lib/compat/wordpress-6.5/block-bindings/class-wp-block-bindings-registry.php:115
+msgid "Block bindings source names must contain a namespace prefix. Example: my-plugin/my-custom-source"
+msgstr "Numele surselor pentru legăturile la bloc trebuie să conțină un prefix pentru nume-spațiu. Exemplu: my-plugin/my-custom-source"
+
+#: lib/compat/wordpress-6.5/block-bindings/class-wp-block-bindings-registry.php:105
+msgid "Block bindings source names must not contain uppercase characters."
+msgstr "Numele surselor pentru legăturile la bloc nu trebuie să conțină majuscule."
+
+#: lib/compat/wordpress-6.5/block-bindings/class-wp-block-bindings-registry.php:96
+msgid "Block bindings source name must be a string."
+msgstr "Numele surselor pentru legăturile la bloc trebuie să fie un șir de caractere."
+
+#. translators: %s: Block bindings source name.
+#: lib/compat/wordpress-6.5/block-bindings/class-wp-block-bindings-registry.php:125
+msgid "Block bindings source \"%s\" already registered."
+msgstr "Sursa legăturilor la blocul „%s” este deja înregistrată."
+
+#: lib/compat/wordpress-6.5/block-patterns.php:66
+msgid "View Pattern Category"
+msgstr "Vezi categoria de modele"
+
+#: lib/compat/wordpress-6.5/block-patterns.php:65
+msgid "Update Pattern Category"
+msgstr "Actualizează categoria de modele"
+
+#: lib/compat/wordpress-6.5/block-patterns.php:64
+msgid "Separate pattern categories with commas"
+msgstr "Separă categoriile de modele cu virgule"
+
+#: lib/compat/wordpress-6.5/block-patterns.php:63
+msgid "Search Pattern Categories"
+msgstr "Caută categorii de modele"
+
+#: lib/compat/wordpress-6.5/block-patterns.php:62
+msgid "Popular Pattern Categories"
+msgstr "Categorii populare de modele"
+
+#: lib/compat/wordpress-6.5/block-patterns.php:61
+msgid "No pattern categories found."
+msgstr "Nu am găsit nicio categorie de modele."
+
+#: lib/compat/wordpress-6.5/block-patterns.php:59
+msgid "New Pattern Category Name"
+msgstr "Nume categorie de modele nouă"
+
+#: lib/compat/wordpress-6.5/block-patterns.php:58
+msgid "Pattern Categories list navigation"
+msgstr "Navigare în lista cu categorii de modele"
+
+#: lib/compat/wordpress-6.5/block-patterns.php:57
+msgid "Pattern Categories list"
+msgstr "Listă categorii de modele"
+
+#: lib/compat/wordpress-6.5/block-patterns.php:56
+msgid "A link to a pattern category."
+msgstr "O legătură la o categorie de modele."
+
+#: lib/compat/wordpress-6.5/block-patterns.php:55
+msgid "Pattern Category Link"
+msgstr "Legătură la categoria de modele"
+
+#: lib/compat/wordpress-6.5/block-patterns.php:54
+msgid "Edit Pattern Category"
+msgstr "Editează categoria de modele"
+
+#: lib/compat/wordpress-6.5/block-patterns.php:53
+msgid "Choose from the most used pattern categories"
+msgstr "Alege dintre categoriile de modele cel mai mult folosite"
+
+#: lib/compat/wordpress-6.5/block-patterns.php:51
+msgid "Add or remove pattern categories"
+msgstr "Adaugă sau înlătură categorii de modele"
+
+#: lib/compat/wordpress-6.5/block-patterns.php:50
+msgid "Add New Category"
+msgstr "Adaugă o categorie nouă"
+
+#. translators: Visible only in the front end, this warning takes the place of
+#. a faulty block. %s represents a pattern's slug.
+#: build/block-library/blocks/pattern.php:54
+msgid "[block rendering halted for pattern \"%s\"]"
+msgstr "[randarea blocului este oprită pentru modelul „%s”]"
+
+#. translators: %s: Font collection slug.
+#: lib/compat/wordpress-6.5/fonts/class-wp-font-library.php:81
+msgid "Font collection \"%s\" not found."
+msgstr "Nu am găsit colecția de fonturi „%s”."
+
+#: lib/compat/wordpress-6.5/block-patterns.php:52
+msgid "&larr; Go to Pattern Categories"
+msgstr "&larr; Mergi la categorii de modele"
+
+#. translators: %s: Font collection slug.
+#: lib/compat/wordpress-6.5/fonts/class-wp-font-library.php:54
+msgid "Font collection with slug: \"%s\" is already registered."
+msgstr "Colecția de fonturi cu descriptorul „%s” este deja înregistrată."
+
+#: lib/compat/wordpress-6.5/rest-api.php:96
+msgid "Unknown author"
+msgstr "Autor necunoscut"
+
+#: lib/compat/wordpress-6.5/rest-api.php:131
+msgid "Where the template originally comes from e.g. 'theme'"
+msgstr "De unde provine șablonul inițial, de exemplu „temă”"
+
+#: lib/compat/wordpress-6.5/rest-api.php:117
+msgid "Human readable text for the author."
+msgstr "Text pentru autor, care poate fi citit de oameni."
+
+#: lib/compat/wordpress-6.5/class-gutenberg-rest-global-styles-revisions-controller-6-5.php:96
+msgid "Invalid revision ID."
+msgstr "ID-ul reviziei nu este valid."
+
+#: lib/compat/wordpress-6.5/class-gutenberg-rest-global-styles-revisions-controller-6-5.php:35
+msgid "Unique identifier for the global styles revision."
+msgstr "Identificator unic pentru revizia stilurilor globale."
+
+#: lib/compat/wordpress-6.5/class-gutenberg-rest-global-styles-revisions-controller-6-5.php:31
+msgid "The ID for the parent of the global styles revision."
+msgstr "ID-ul părintelui pentru revizia stilurilor globale."
+
+#: build/block-library/blocks/form/block.json
+msgctxt "block description"
+msgid "A form."
+msgstr "Un formular."
+
+#: build/block-library/blocks/form/block.json
+msgctxt "block title"
+msgid "Form"
+msgstr "Formular"
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block keyword"
+msgid "button"
+msgstr "buton"
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block keyword"
+msgid "submit"
+msgstr "trimite"
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block description"
+msgid "A submission button for forms."
+msgstr "Un buton de trimitere pentru formulare."
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block keyword"
+msgid "message"
+msgstr "mesaj"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block keyword"
+msgid "notification"
+msgstr "notificare"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block keyword"
+msgid "feedback"
+msgstr "impresii"
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block description"
+msgid "Provide a notification message after the form has been submitted."
+msgstr "Oferă un mesaj cu o notificare după ce formularul a fost trimis."
+
+#: build/block-library/blocks/form-submission-notification/block.json
+msgctxt "block title"
+msgid "Form Submission Notification"
+msgstr "Notificare trimitere formular"
+
+#: build/block-library/blocks/form-input/block.json
+msgctxt "block keyword"
+msgid "input"
+msgstr "intrare"
+
+#: build/block-library/blocks/form-input/block.json
+msgctxt "block description"
+msgid "The basic building block for forms."
+msgstr "Blocul de bază pentru construirea de formulare."
+
+#: build/block-library/blocks/form-input/block.json
+msgctxt "block title"
+msgid "Input Field"
+msgstr "Câmp de intrare"
+
+#: build/block-library/blocks/form-submit-button/block.json
+msgctxt "block title"
+msgid "Form Submit Button"
+msgstr "Buton de trimitere formulare"
+
+#: lib/experimental/data-views.php:47
+msgid "Dataview type"
+msgstr "Tip de vizualizări de date"
+
+#: lib/experimental/data-views.php:46
+msgid "Dataview types"
+msgstr "Tipuri de vizualizări de date"
+
+#: lib/experimental/data-views.php:20
+msgid "Post which stores the different data views configurations"
+msgstr "Articol care stochează configurări diferite pentru vizualizările de date"
+
+#: lib/experimental/data-views.php:19
+msgctxt "post type general name"
+msgid "Dataviews"
+msgstr "Vizualizări de date"
+
+#: lib/experiments-page.php:89
+msgid "Test new blocks to allow building forms (Warning: The new feature is not ready. You may experience UX issues that are being addressed)"
+msgstr "Testează noile blocuri care permite construirea de formulare. (Avertizare: noua funcționalitate nu este încă gata. Poți să ai probleme acolo unde este folosită.)"
+
+#: lib/experiments-page.php:84
+msgid "Form and input blocks "
+msgstr "Blocuri pentru formulare și intrări "
+
+#: lib/compat/wordpress-6.5/block-patterns.php:29
+msgid "Different layouts containing audio."
+msgstr "Diferite aranjamente care conțin fișiere audio."
+
+#: lib/compat/wordpress-6.5/block-patterns.php:22
+msgid "Different layouts containing videos."
+msgstr "Diferite aranjamente care conțin videouri."
+
+#: build/block-library/blocks/form.php:113
+msgid "Form submission"
+msgstr "Trimitere formular"
+
+#. translators: %s: The request URI.
+#: build/block-library/blocks/form.php:95
+msgid "Form submission from %1$s"
+msgstr "Trimitere formular de la %1$s"
+
+#: build/block-library/blocks/footnotes/block.json
+msgctxt "block description"
+msgid "Display footnotes added to the page."
+msgstr "Afișează notele de subsol adăugate în pagină."
+
+#. Translators: %d: Integer representing the number of return links on the
+#. page.
+#: build/block-library/blocks/footnotes.php:48
+msgid "Jump to footnote reference %1$d"
+msgstr "Sari la referința pentru nota de subsol %1$d"
+
+#. translators: %s: taxonomy's label
+#: build/block-library/blocks/post-terms.php:92
+msgid "Display a list of assigned terms from the taxonomy: %s"
+msgstr "Afișează o listă cu termeni atribuiți din taxonomia: %s"
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-font-collection.php:163
+msgid "Error decoding the font collection JSON file contents."
+msgstr "Eroare la decodarea conținutului fișierului JSON pentru colecția de fonturi."
+
+#. translators: %s: Font collection URL.
+#: lib/compat/wordpress-6.5/fonts/class-wp-font-collection.php:190
+msgid "Error fetching the font collection data from \"%s\"."
+msgstr "Eroare la preluarea datelor colecției de fonturi din „%s”."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-font-collection.php:198
+msgid "Error decoding the font collection data from the HTTP response JSON."
+msgstr "Eroare la decodarea datelor colecției de fonturi din răspunsul HTTP de la JSON."
+
+#: lib/compat/wordpress-6.5/fonts/fonts.php:172
+msgid "Install from Google Fonts. Fonts are copied to and served from your site."
+msgstr "Instalează din Google Fonts. Fonturile sunt copiate și servite de pe site-ul tău."
+
+#: lib/compat/wordpress-6.5/interactivity-api/class-wp-interactivity-api.php:878
+msgid "Page Loaded."
+msgstr "Am încărcat pagina."
+
+#: lib/compat/wordpress-6.5/interactivity-api/class-wp-interactivity-api.php:877
+msgid "Loading page, please wait."
+msgstr "Încarc pagina, te rog așteaptă."
+
+#. translators: %d: Duration in days from or to a particular datetime, e.g., "4
+#. days ago" or "4 days from now".
+#: lib/compat/wordpress-6.5/script-loader.php:67
+msgid "%d days"
+msgstr "%d zile"
+
+#. translators: One day from or to a particular datetime, e.g., "a day ago" or
+#. "a day from now".
+#: lib/compat/wordpress-6.5/script-loader.php:65
+msgid "a day"
+msgstr "o zi"
+
+#. translators: %d: Duration in hours from or to a particular datetime, e.g.,
+#. "4 hours ago" or "4 hours from now".
+#: lib/compat/wordpress-6.5/script-loader.php:63
+msgid "%d hours"
+msgstr "%d ore"
+
+#. translators: One hour from or to a particular datetime, e.g., "an hour ago"
+#. or "an hour from now".
+#: lib/compat/wordpress-6.5/script-loader.php:61
+msgid "an hour"
+msgstr "o oră"
+
+#. translators: %d: Duration in minutes from or to a particular datetime, e.g.,
+#. "4 minutes ago" or "4 minutes from now".
+#: lib/compat/wordpress-6.5/script-loader.php:59
+msgid "%d minutes"
+msgstr "%d minute"
+
+#. translators: One minute from or to a particular datetime, e.g., "a minute
+#. ago" or "a minute from now".
+#: lib/compat/wordpress-6.5/script-loader.php:57
+msgid "a minute"
+msgstr "un minut"
+
+#. translators: %d: Duration in seconds from or to a particular datetime, e.g.,
+#. "4 seconds ago" or "4 seconds from now".
+#: lib/compat/wordpress-6.5/script-loader.php:55
+msgid "%d seconds"
+msgstr "%d secunde"
+
+#. translators: One second from or to a particular datetime, e.g., "a second
+#. ago" or "a second from now".
+#: lib/compat/wordpress-6.5/script-loader.php:53
+msgid "a second"
+msgstr "o secundă"
+
+#: lib/compat/wordpress-6.4/block-hooks.php:40
+msgid "Cannot hook block to itself."
+msgstr "Nu pot să agăț blocul de el însuși."
+
+#. translators: %d: Duration in years from or to a particular datetime, e.g.,
+#. "4 years ago" or "4 years from now".
+#: lib/compat/wordpress-6.5/script-loader.php:75
+msgid "%d years"
+msgstr "%d ani"
+
+#. translators: One year from or to a particular datetime, e.g., "a year ago"
+#. or "a year from now".
+#: lib/compat/wordpress-6.5/script-loader.php:73
+msgid "a year"
+msgstr "un an"
+
+#. translators: %d: Duration in months from or to a particular datetime, e.g.,
+#. "4 months ago" or "4 months from now".
+#: lib/compat/wordpress-6.5/script-loader.php:71
+msgid "%d months"
+msgstr "%d luni"
+
+#. translators: One month from or to a particular datetime, e.g., "a month ago"
+#. or "a month from now".
+#: lib/compat/wordpress-6.5/script-loader.php:69
+msgid "a month"
+msgstr "o lună"
+
+#: lib/compat/wordpress-6.5/block-patterns.php:48
+msgctxt "taxonomy general name"
+msgid "Pattern Categories"
+msgstr "Categorii de modele"
+
+#: lib/compat/wordpress-6.5/block-patterns.php:49
+msgctxt "taxonomy singular name"
+msgid "Pattern Category"
+msgstr "Categorie de modele"
+
+#: lib/compat/wordpress-6.4/block-hooks.php:293
+msgid "This block is automatically inserted near any occurrence of the block types used as keys of this map, into a relative position given by the corresponding value."
+msgstr "Acest bloc este inserat automat în apropierea tuturor tipurilor de bloc folosite drept chei pentru această hartă, într-o poziție relativă dată de valoarea corespunzătoare."
+
+#: build/block-library/blocks/post-date/block.json
+msgctxt "block description"
+msgid "Display the publish date for an entry such as a post or page."
+msgstr "Afișează data publicării pentru o intrare, cum ar fi un articol sau o pagină."
+
+#: build/block-library/blocks/post-date/block.json
+msgctxt "block title"
+msgid "Date"
+msgstr "Dată"
+
+#: build/block-library/blocks/post-content/block.json
+msgctxt "block title"
+msgid "Content"
+msgstr "Conținut"
+
+#: build/block-library/blocks/post-author/block.json
+msgctxt "block title"
+msgid "Author"
+msgstr "Autor"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block keyword"
+msgid "toggle"
+msgstr "comută"
+
+#: lib/experiments-page.php:53
+msgid "Enable the live collaboration and offline persistence between peers"
+msgstr "Activează colaborarea live și persistența offline între perechi"
+
+#: lib/experiments-page.php:48
+msgid "Live Collaboration and offline persistence "
+msgstr "Colaborare live și persistență offline "
+
+#: lib/compat/wordpress-6.4/html-api/class-wp-html-processor.php:407
+#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-processor-6-5.php:398
+msgid "Cannot visit tag closers in HTML Processor."
+msgstr "Nu pot să vizitez tagurile de închidere în procesorul HTML."
+
+#: lib/compat/wordpress-6.4/html-api/class-wp-html-processor.php:388
+#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-processor-6-5.php:379
+msgid "Please pass a query array to this function."
+msgstr "Te rog să treci un tablou cu interogări la această funcție."
+
+#. translators: %s: WP_HTML_Processor::create_fragment().
+#: lib/compat/wordpress-6.4/html-api/class-wp-html-processor.php:302
+#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-processor-6-5.php:293
+msgid "Call %s to create an HTML Processor instead of calling the constructor directly."
+msgstr "Apelează %s pentru a crea un procesor HTML în loc să apelezi direct constructorul."
+
+#: build/block-library/blocks/search.php:180
+msgid "Submit Search"
+msgstr "Trimite căutarea"
+
+#: build/block-library/blocks/block/block.json
+msgctxt "block keyword"
+msgid "reusable"
+msgstr "reutilizabile"
+
+#: build/block-library/blocks/footnotes.php:123
+#: build/block-library/index.js:60899 build/block-library/index.js:60910
+msgid "Footnotes"
+msgstr "Note de subsol"
+
+#: lib/class-wp-theme-json-resolver-gutenberg.php:348
+msgid "`experimental-link-color` is no longer supported. Use `link-color` instead."
+msgstr "„experimental-link-color” nu mai este acceptat. Folosește în schimb „link-color”."
+
+#: lib/experiments-page.php:108 lib/experiments-page.php:113
+msgid "Disable TinyMCE and Classic block"
+msgstr "Dezactivează blocul TinyMCE și blocul Clasic"
+
+#: build/block-library/blocks/pattern/block.json
+msgctxt "block title"
+msgid "Pattern placeholder"
+msgstr "Substituent model"
+
+#: build/block-library/blocks/footnotes/block.json
+msgctxt "block keyword"
+msgid "references"
+msgstr "referințe"
+
+#: build/block-library/blocks/footnotes/block.json
+msgctxt "block title"
+msgid "Footnotes"
+msgstr "Note de subsol"
+
+#: lib/compat/wordpress-6.6/option.php:20 build/edit-site/index.js:39652
+msgid "Allow comments on new posts"
+msgstr "Permite comentarii la articole noi"
+
+#: lib/compat/wordpress-6.6/option.php:19
+msgid "Maximum posts per page"
+msgstr "Număr maxim de articole pe o pagină"
+
+#. translators: %s: duotone colors
+#: lib/class-wp-duotone-gutenberg.php:536
+msgid "\"%s\" in theme.json settings.color.duotone is not a hex or rgb string."
+msgstr "„%s” din theme.json settings.color.duotone nu este un șir hex sau rgb."
+
+#: build/block-library/blocks/post-title/block.json
+msgctxt "block title"
+msgid "Title"
+msgstr "Titlu"
+
+#: build/block-library/blocks/post-excerpt/block.json
+msgctxt "block title"
+msgid "Excerpt"
+msgstr "Rezumat"
+
+#: build/block-library/blocks/search.php:156
+#: build/block-library/blocks/search.php:181
+msgid "Expand search field"
+msgstr "Extinde câmpul de căutare"
+
+#. translators: %s: duotone filter ID
+#: lib/class-wp-duotone-gutenberg.php:727
+msgid "The duotone id \"%s\" is not registered in theme.json settings"
+msgstr "ID-ul „%s” pentru duotone nu este înregistrat în setările theme.json"
+
+#. translators: %s: Image alt text.
+#: build/block-library/blocks/image.php:153
+msgid "Enlarge image: %s"
+msgstr "Mărește imaginea: %s"
+
+#: build/block-library/blocks/image.php:149
+msgid "Enlarge image"
+msgstr "Mărește imaginea"
+
+#: lib/compat/wordpress-6.4/theme-previews.php:16
+msgid "Go back to the theme showcase"
+msgstr "Mergi înapoi la exemplificarea temei"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block keyword"
+msgid "accordion"
+msgstr "acordeon"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block description"
+msgid "Hide and show additional content."
+msgstr "Ascunde și arată conținutul suplimentar."
+
+#: build/block-library/blocks/cover/block.json
+msgctxt "block description"
+msgid "Add an image or video with a text overlay."
+msgstr "Adaugă o imagine sau un video cu o suprapunere text."
+
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block description"
+msgid "Display an image to represent this site. Update this block and the changes apply everywhere."
+msgstr "Afișează o imagine care să reprezinte acest site. Actualizează acest bloc și modificările se vor aplica peste tot."
+
+#: lib/compat/wordpress-6.4/class-gutenberg-rest-global-styles-revisions-controller-6-4.php:135
+msgid "The date the revision was last modified, as GMT."
+msgstr "Data la care revizia a fost modificată ultima dată (GMT)."
+
+#: lib/compat/wordpress-6.4/class-gutenberg-rest-global-styles-revisions-controller-6-4.php:129
+msgid "The date the revision was last modified, in the site's timezone."
+msgstr "Data la care revizia a fost modificată ultima dată, în fusul orar al site-ului."
+
+#: lib/compat/wordpress-6.4/class-gutenberg-rest-global-styles-revisions-controller-6-4.php:118
+msgid "The date the revision was published, as GMT."
+msgstr "Data la care a fost publicată revizia (GMT)."
+
+#: lib/compat/wordpress-6.4/class-gutenberg-rest-global-styles-revisions-controller-6-4.php:112
+msgid "The date the revision was published, in the site's timezone."
+msgstr "Data la care a fost publicată revizia, în fusul orar al site-ului."
+
+#: lib/compat/wordpress-6.4/class-gutenberg-rest-global-styles-revisions-controller-6-4.php:141
+msgid "The ID for the parent of the revision."
+msgstr "ID-ul pentru părintele reviziei."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:768
+msgid "Invalid post parent ID."
+msgstr "ID invalid pentru părinte articol."
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block title"
+msgid "Details"
+msgstr "Detalii"
+
+#: build/block-library/blocks/details/block.json
+msgctxt "block keyword"
+msgid "disclosure"
+msgstr "dezvăluie"
+
+#. translators: %s is the number of minutes the post will take to read.
+#. translators: %s: the number of minutes to read the post.
+#: build/block-library/blocks/post-time-to-read.php:36
+#: build/editor/index.js:23596 build/editor/index.min.js:26765
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minut"
+msgstr[1] "%s minute"
+msgstr[2] "%s de minute"
+
+#: build/block-library/blocks/post-time-to-read/block.json
+msgctxt "block title"
+msgid "Time To Read"
+msgstr "Timp pentru citire"
+
+#: build/block-library/blocks/post-time-to-read/block.json
+msgctxt "block description"
+msgid "Show minutes required to finish reading the post."
+msgstr "Arată minutele necesare pentru citirea articolului."
+
+#: lib/compat/wordpress-6.4/html-api/class-gutenberg-html-tag-processor-6-4.php:1699
+#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-tag-processor-6-5.php:2324
+msgid "Unknown bookmark name."
+msgstr "Nume pentru semn de carte necunoscut."
+
+#: lib/compat/wordpress-6.4/html-api/class-gutenberg-html-tag-processor-6-4.php:1708
+#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-tag-processor-6-5.php:2333
+msgid "Too many calls to seek() - this can lead to performance issues."
+msgstr "Prea multe apeluri către seek() - acest lucru poate duce la probleme de performanță."
+
+#: lib/compat/wordpress-6.4/html-api/class-gutenberg-html-tag-processor-6-4.php:2055
+#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-tag-processor-6-5.php:2898
+msgid "Invalid attribute name."
+msgstr "Numele atributului nu este valid."
+
+#: lib/compat/wordpress-6.4/html-api/class-gutenberg-html-tag-processor-6-4.php:2376
+#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-tag-processor-6-5.php:3226
+msgid "The query argument must be an array or a tag name."
+msgstr "Argumentul interogării trebuie să fie un tablou sau un nume de etichetă."
+
+#: lib/compat/wordpress-6.4/html-api/class-gutenberg-html-tag-processor-6-4.php:805
+#: lib/compat/wordpress-6.5/html-api/class-gutenberg-html-tag-processor-6-5.php:1209
+msgid "Too many bookmarks: cannot create any more."
+msgstr "Prea multe semne de carte: nu pot crea mai multe."
+
+#. translators: %d is the post ID.
+#: build/block-library/blocks/post-featured-image.php:35
+msgid "Untitled post %d"
+msgstr "Articol fără titlu %d"
+
+#. Description of the plugin
+#: gutenberg.php
+msgid "Printing since 1440. This is the development plugin for the block editor, site editor, and other future WordPress core functionality."
+msgstr "Tipărim din 1440. Acesta este modulul de dezvoltare pentru editorul de blocuri, editorul de site-uri și alte viitoare funcționalități ale nucleului WordPress."
+
+#. translators: 1: theme.json, 2: Value name, 3: Value path, 4: Another value
+#. name.
+#: lib/class-wp-theme-json-gutenberg.php:2306
+msgid "Your %1$s file uses a dynamic value (%2$s) for the path at %3$s. However, the value at %3$s is also a dynamic value (pointing to %4$s) and pointing to another dynamic value is not supported. Please update %3$s to point directly to %4$s."
+msgstr "Fișierul %1$s utilizează o valoare dinamică (%2$s) pentru calea %3$s. Dar, valoarea %3$s este și o valoare dinamică (care indică la %4$s) și nu este acceptată o valoare care să indice la o altă valoare dinamică. Te rog actualizează %3$s pentru a indica direct la %4$s."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:198
+msgid "Block inspector tab display overrides."
+msgstr "Contramandări pentru afișarea filei inspector de blocuri."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:709
+msgid "Markup is not allowed in CSS."
+msgstr "Markup-ul nu este permis în CSS."
+
+#: lib/compat/wordpress-6.5/block-patterns.php:28
+msgctxt "Block pattern category"
+msgid "Audio"
+msgstr "Audio"
+
+#: build/block-library/blocks/page-list-item/block.json
+msgctxt "block title"
+msgid "Page List Item"
+msgstr "Element din lista de pagini"
+
+#: build/block-library/blocks/page-list-item/block.json
+msgctxt "block description"
+msgid "Displays a page inside a list of all pages."
+msgstr "Afișează o pagină într-o listă cu toate paginile."
+
+#: build/block-library/blocks/page-list-item/block.json
+msgctxt "block keyword"
+msgid "page"
+msgstr "pagină"
+
+#. translators: %s is either the post title or post ID to describe the link for
+#. screen readers.
+#: build/block-library/blocks/read-more.php:34
+msgid ": %s"
+msgstr ": %s"
+
+#. translators: %s is post ID to describe the link for screen readers.
+#: build/block-library/blocks/read-more.php:28
+msgid "untitled post %s"
+msgstr "articol fără titlu "
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:132
+msgid "Indicates whether the current theme supports block-based templates."
+msgstr "Indică dacă tema curentă acceptă șabloane bazate pe blocuri."
+
+#: lib/experiments-page.php:72
+msgid "Color randomizer "
+msgstr "Randomizator de culori "
+
+#: lib/experiments-page.php:77
+msgid "Test the Global Styles color randomizer; a utility that lets you mix the current color palette pseudo-randomly."
+msgstr "Testează randomizatorul de culori pentru Stiluri globale; un serviciu utilitar care îți permite să amesteci pseudo-aleatoriu paleta de culori curentă."
+
+#: lib/compat/wordpress-6.5/block-patterns.php:21
+msgctxt "Block pattern category"
+msgid "Videos"
+msgstr "Videouri"
+
+#: lib/block-supports/typography.php:286
+msgid "Raw size value must be a string, integer or a float."
+msgstr "Valoarea brută a dimensiunii trebuie să fie un șir de caractere, un număr întreg sau zecimal."
+
+#: build/block-library/blocks/tag-cloud.php:33
+msgid "There&#8217;s no content to show here yet."
+msgstr "Nu există niciun conținut de afișat aici."
+
+#: build/block-library/blocks/comments-pagination-next/block.json
+msgctxt "block title"
+msgid "Comments Next Page"
+msgstr "Pagina următoare de comentarii"
+
+#: build/block-library/blocks/comments-pagination-previous/block.json
+msgctxt "block title"
+msgid "Comments Previous Page"
+msgstr "Pagina anterioară de comentarii"
+
+#: build/style-engine/class-wp-style-engine-processor-gutenberg.php:44
+msgid "$store must be an instance of WP_Style_Engine_CSS_Rules_Store_Gutenberg"
+msgstr "$store trebuie să fie o instanță a WP_Style_Engine_CSS_Rules_Store_Gutenberg"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:309
+msgid "Disables custom spacing sizes."
+msgstr "Dezactivează dimensiunile personalizate pentru spațiere."
+
+#. translators: %s is the search term.
+#: build/block-library/blocks/query-title.php:46
+msgid "Search results for: \"%s\""
+msgstr "Rezultate de căutare pentru: „%s”"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:222
+msgid "Disables output of layout styles."
+msgstr "Dezactivează ieșirea stilurilor pentru aranjamente."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:168
+msgid "Whether the V2 of the list block that uses inner blocks should be enabled."
+msgstr "Dacă ar trebui să fie activată V2 a blocului Listă care folosește blocuri interne."
+
+#: lib/class-wp-theme-json-gutenberg.php:3675
+msgid "Some of the theme.json settings.spacing.spacingScale values are invalid"
+msgstr "Unele dintre valorile theme.json settings.spacing.spacingScale nu sunt valide"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+#: lib/class-wp-theme-json-gutenberg.php:3709
+msgid "%sX-Small"
+msgstr "%s - mică"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+#: lib/class-wp-theme-json-gutenberg.php:3746
+msgid "%sX-Large"
+msgstr "%s - mare"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:299
+msgid "Active theme spacing sizes."
+msgstr "Dimensiuni de spațiere pentru tema activă."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:304
+msgid "Active theme spacing scale."
+msgstr "Redimensionare spațiere pentru tema activă."
+
+#: build/block-library/blocks/categories/block.json
+msgctxt "block title"
+msgid "Categories List"
+msgstr "Listă de categorii"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: build/block-library/blocks/comments-title.php:47
+#: build/block-library/index.js:11171
+msgid "%1$s response to %2$s"
+msgid_plural "%1$s responses to %2$s"
+msgstr[0] "%1$s răspuns la %2$s"
+msgstr[1] "%1$s răspunsuri la %2$s"
+msgstr[2] "%1$s de răspunsuri la %2$s"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:29
+msgid "&#8220;%s&#8221;"
+msgstr "&#8222;%s&#8221;"
+
+#. translators: %s: Number of comments.
+#: build/block-library/blocks/comments-title.php:61
+#: build/block-library/index.js:11177
+msgid "%s response"
+msgid_plural "%s responses"
+msgstr[0] "%s răspuns"
+msgstr[1] "%s răspunsuri"
+msgstr[2] "%s de răspunsuri"
+
+#: build/block-library/blocks/comments/block.json
+msgctxt "block title"
+msgid "Comments"
+msgstr "Comentarii"
+
+#: build/block-library/blocks/comment-content.php:44
+msgid "Your comment is awaiting moderation."
+msgstr "Comentariul tău așteaptă să fie moderat."
+
+#: build/block-library/blocks/comment-content.php:46
+msgid "Your comment is awaiting moderation. This is a preview; your comment will be visible after it has been approved."
+msgstr "Comentariul tău așteaptă să fie moderat. Aceasta este o previzualizare; comentariul va fi vizibil după ce este aprobat."
+
+#: build/block-library/blocks/comments-title.php:74
+#: build/block-library/index.js:11188
+msgid "Response"
+msgstr "Răspuns"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:68
+#: build/block-library/index.js:11182
+msgid "Response to %s"
+msgstr "Răspuns la %s"
+
+#: build/block-library/blocks/comments-title.php:57
+#: build/block-library/index.js:11174
+msgid "One response"
+msgstr "Un răspuns"
+
+#: build/block-library/blocks/comments-title.php:76
+#: build/block-library/index.js:11190
+msgid "Responses"
+msgstr "Răspunsuri"
+
+#: build/block-library/blocks/comments-title/block.json
+msgctxt "block title"
+msgid "Comments Title"
+msgstr "Titlu comentarii"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:43
+#: build/block-library/index.js:8571 build/block-library/index.js:11168
+msgid "One response to %s"
+msgstr "Un răspuns la %s"
+
+#. translators: %s: Post title.
+#: build/block-library/blocks/comments-title.php:71
+#: build/block-library/index.js:11185
+msgid "Responses to %s"
+msgstr "Răspunsuri la %s"
+
+#: build/block-library/blocks/comments-title/block.json
+msgctxt "block description"
+msgid "Displays a title with the number of comments."
+msgstr "Afișează un titlu cu numărul de comentarii."
+
+#: build/block-library/blocks/group/block.json
+msgctxt "block description"
+msgid "Gather blocks in a layout container."
+msgstr "Adună blocurile într-un container pentru aranjament."
+
+#: build/block-library/blocks/comments/block.json
+msgctxt "block description"
+msgid "An advanced block that allows displaying post comments using different visual configurations."
+msgstr "Un bloc avansat care permite afișarea comentariilor la articole folosind diferite configurări vizuale."
+
+#: build/block-library/blocks/comment-date/block.json
+msgctxt "block description"
+msgid "Displays the date on which the comment was posted."
+msgstr "Afișează data la care a fost publicat comentariul."
+
+#: build/block-library/blocks/comment-author-name/block.json
+msgctxt "block description"
+msgid "Displays the name of the author of the comment."
+msgstr "Afișează numele pentru autorul comentariului."
+
+#: build/block-library/blocks/comment-author-avatar/block.json
+msgctxt "block description"
+msgid "This block is deprecated. Please use the Avatar block instead."
+msgstr "Acest bloc este învechit. Te rog folosește în schimb blocul Avatar."
+
+#: build/block-library/blocks/comment-author-avatar/block.json
+msgctxt "block title"
+msgid "Comment Author Avatar (deprecated)"
+msgstr "Avatar autor comentariu (învechit)"
+
+#: build/block-library/blocks/rss.php:19
+msgid "Adding an RSS feed to this site’s homepage is not supported, as it could lead to a loop that slows down your site. Try using another block, like the <strong>Latest Posts</strong> block, to list posts from the site."
+msgstr "Nu poți să adaugi un flux RSS pentru prima pagină a acestui site, se va forma o buclă care îți va încetini site-ul. Pentru a afișa articolele de pe site, încearcă să folosești un alt bloc, cum ar fi blocul <strong>Ultimele articole</strong>."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:162
+msgid "Whether the V2 of the quote block that uses inner blocks should be enabled."
+msgstr "Dacă ar trebui să fie activată V2 a blocului Citat care folosește blocuri interne."
+
+#: build/block-library/blocks/avatar/block.json
+msgctxt "block description"
+msgid "Add a user’s avatar."
+msgstr "Adaugă avatarul unui utilizator."
+
+#: build/block-library/blocks/avatar/block.json
+msgctxt "block title"
+msgid "Avatar"
+msgstr "Avatar"
+
+#: build/block-library/blocks/list-item/block.json
+msgctxt "block description"
+msgid "Create a list item."
+msgstr "Creează un element de listă."
+
+#: build/block-library/blocks/list-item/block.json
+msgctxt "block title"
+msgid "List item"
+msgstr "Element de listă"
+
+#: build/block-library/blocks/query-no-results/block.json
+msgctxt "block title"
+msgid "No results"
+msgstr "Niciun rezultat"
+
+#: build/block-library/blocks/query-no-results/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to render content when no query results are found."
+msgstr "Conține elementele de bloc folosite pentru a randa conținutul când interogarea nu găsește niciun rezultat."
+
+#. translators: %s is the Comment Author name.
+#: build/block-library/blocks/avatar.php:92
+msgid "(%s website link, opens in a new tab)"
+msgstr "(legătură la site-ul web %s, se deschide într-o filă nouă)"
+
+#. translators: %s is the Author name.
+#: build/block-library/blocks/avatar.php:65
+msgid "(%s author archive, opens in a new tab)"
+msgstr "(arhiva autorului %s, se deschide într-o filă nouă)"
+
+#: lib/compat/wordpress-6.4/fonts/font-face/class-wp-font-face.php:205
+msgid "Font font-weight must be a properly formatted string or integer."
+msgstr "Grosimea fontului Font trebuie să fie un șir sau un număr întreg formatat corespunzător."
+
+#: lib/compat/wordpress-6.4/fonts/font-face/class-wp-font-face.php:193
+msgid "Each font src must be a non-empty string."
+msgstr "Fiecare src de font trebuie să fie un șir de caractere care nu este gol."
+
+#: lib/compat/wordpress-6.4/fonts/font-face/class-wp-font-face.php:181
+msgid "Font src must be a non-empty string or an array of strings."
+msgstr "Fiecare src de font trebuie să fie un șir de caractere care nu este gol sau un tablou de șiruri."
+
+#: lib/compat/wordpress-6.4/fonts/font-face/class-wp-font-face.php:170
+msgid "Font font-family must be a non-empty string."
+msgstr "Familia de fonturi Font trebuie să fie un șir de caractere care nu este gol."
+
+#: build/block-library/blocks/post-author-biography/block.json
+msgctxt "block description"
+msgid "The author biography."
+msgstr "Biografia autorului."
+
+#: build/block-library/blocks/read-more/block.json
+msgctxt "block title"
+msgid "Read More"
+msgstr "Citește mai mult"
+
+#: build/block-library/blocks/read-more/block.json
+msgctxt "block description"
+msgid "Displays the link of a post, page, or any other content-type."
+msgstr "Afișează legătura unui articol, a unei pagini sau a oricărui alt tip de conținut."
+
+#: build/block-library/blocks/post-author-biography/block.json
+msgctxt "block title"
+msgid "Author Biography"
+msgstr "Biografie autor"
+
+#: build/block-library/blocks/comments-pagination-previous.php:20
+#: build/block-library/index.js:8577 build/block-library/index.js:8636
+#: build/block-library/index.js:10512
+msgid "Older Comments"
+msgstr "Comentarii mai vechi"
+
+#: build/block-library/blocks/comments-pagination-next.php:27
+#: build/block-library/index.js:8581 build/block-library/index.js:8640
+#: build/block-library/index.js:10844
+msgid "Newer Comments"
+msgstr "Comentarii mai noi"
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:183
+msgid "Sorry, you are not allowed to view this global style."
+msgstr "Regret, nu ai voie să vezi acest stil global."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:175
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:238
+msgid "Sorry, you are not allowed to edit this global style."
+msgstr "Regret, nu ai voie să editezi acest stil global."
+
+#: build/block-library/blocks/post-author/block.json
+msgctxt "block description"
+msgid "Display post author details such as name, avatar, and bio."
+msgstr "Afișează detalii despre autorul articolului, cum ar fi nume, avatar și biografie."
+
+#: build/block-library/blocks/post-author-name/block.json
+msgctxt "block description"
+msgid "The author name."
+msgstr "Numele autorului."
+
+#: build/block-library/blocks/comments-pagination-previous/block.json
+msgctxt "block description"
+msgid "Displays the previous comment's page link."
+msgstr "Afișează legătura la pagina cu comentariile anterioare."
+
+#: build/block-library/blocks/comments-pagination-next/block.json
+msgctxt "block description"
+msgid "Displays the next comment's page link."
+msgstr "Afișează legătura la pagina cu comentariile următoare."
+
+#: build/block-library/blocks/site-logo.php:97
+#: build/block-library/index.js:33071
+msgid "Icon"
+msgstr "Icon"
+
+#: build/block-library/blocks/post-author-name/block.json
+msgctxt "block title"
+msgid "Author Name"
+msgstr "Nume autor"
+
+#: build/block-library/blocks/site-logo.php:98
+msgid "Site icon."
+msgstr "Icon site."
+
+#: build/block-library/blocks/query-pagination/block.json
+msgctxt "block title"
+msgid "Pagination"
+msgstr "Paginație"
+
+#: build/block-library/blocks/query-pagination-previous/block.json
+msgctxt "block title"
+msgid "Previous Page"
+msgstr "Pagina anterioară"
+
+#: build/block-library/blocks/query-pagination-numbers/block.json
+msgctxt "block title"
+msgid "Page Numbers"
+msgstr "Numere pagini"
+
+#: build/block-library/blocks/query-pagination-next/block.json
+msgctxt "block title"
+msgid "Next Page"
+msgstr "Pagina următoare"
+
+#: build/block-library/blocks/comments-pagination-numbers/block.json
+msgctxt "block description"
+msgid "Displays a list of page numbers for comments pagination."
+msgstr "Afișează o listă cu numere de pagini pentru paginarea comentariilor."
+
+#. translators: Accessibility text. %s: Parent page title.
+#: build/block-library/blocks/navigation-submenu.php:119
+#: build/block-library/blocks/page-list.php:198
+msgid "%s submenu"
+msgstr "Sub-meniu %s"
+
+#: build/block-library/blocks/comments-pagination/block.json
+msgctxt "block title"
+msgid "Comments Pagination"
+msgstr "Paginație comentarii"
+
+#: build/block-library/blocks/comments-pagination/block.json
+msgctxt "block description"
+msgid "Displays a paginated navigation to next/previous set of comments, when applicable."
+msgstr "Afișează o navigare cu pagini la setul următor/anterior de comentarii, când este cazul."
+
+#: lib/compat/wordpress-6.4/class-gutenberg-rest-global-styles-revisions-controller-6-4.php:107
+msgid "The ID for the author of the revision."
+msgstr "ID-ul pentru autorul reviziei."
+
+#: build/block-library/blocks/comment-content/block.json
+msgctxt "block description"
+msgid "Displays the contents of a comment."
+msgstr "Afișează conținutul unui comentariu."
+
+#: build/block-library/blocks/comment-edit-link/block.json
+msgctxt "block title"
+msgid "Comment Edit Link"
+msgstr "Legătură editare comentariu"
+
+#: build/block-library/blocks/comment-edit-link/block.json
+msgctxt "block description"
+msgid "Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability."
+msgstr "Afișează o legătură pentru a edita comentariul în panoul de control WordPress. Această legătură este vizibilă doar utilizatorilor ce au capabilitatea de a edita comentarii."
+
+#: build/block-library/blocks/comment-reply-link/block.json
+msgctxt "block title"
+msgid "Comment Reply Link"
+msgstr "Legătură răspuns la comentariu"
+
+#: build/block-library/blocks/comment-reply-link/block.json
+msgctxt "block description"
+msgid "Displays a link to reply to a comment."
+msgstr "Afișează o legătură pentru a răspunde la un comentariu."
+
+#: build/block-library/blocks/block/block.json
+msgctxt "block title"
+msgid "Pattern"
+msgstr "Model"
+
+#: build/block-library/blocks/pattern/block.json
+msgctxt "block description"
+msgid "Show a block pattern."
+msgstr "Arată un model de bloc."
+
+#: build/block-library/blocks/comment-author-name/block.json
+msgctxt "block title"
+msgid "Comment Author Name"
+msgstr "Nume autor comentariu"
+
+#: build/block-library/blocks/comment-template/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to display a comment, like the title, date, author, avatar and more."
+msgstr "Conține elementele blocului folosite pentru a afișa un comentariu, cum ar fi titlu, dată, autor, avatar și altele."
+
+#: build/block-library/blocks/comment-template/block.json
+msgctxt "block title"
+msgid "Comment Template"
+msgstr "Șablon de comentarii"
+
+#: build/block-library/blocks/post-comment/block.json
+msgctxt "block description"
+msgid "This block is deprecated. Please use the Comments block instead."
+msgstr "Acest bloc este învechit. Te rog folosește în schimb blocul Comentarii."
+
+#: build/block-library/blocks/post-comment/block.json
+msgctxt "block title"
+msgid "Comment (deprecated)"
+msgstr "Comentariu (învechit)"
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:534
+#: lib/compat/wordpress-6.4/class-gutenberg-rest-global-styles-revisions-controller-6-4.php:153
+msgid "Global settings."
+msgstr "Setări globale."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:550
+msgid "HTML title for the post, transformed for display."
+msgstr "Titlu HTML pentru articol, transformat pentru afișare."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:605
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:684
+msgid "Theme not found."
+msgstr "Nu am găsit tema."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:53
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:79
+msgid "The theme identifier"
+msgstr "Identificatorul temei"
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:582
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:658
+msgid "Sorry, you are not allowed to access the global styles on this site."
+msgstr "Regret, nu ai voie să accesezi stilurile globale pe acest site."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:141
+msgid "No global styles config exist with that id."
+msgstr "Nu există o configurare cu acest ID pentru stiluri globale."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:523
+msgid "ID of global styles config."
+msgstr "ID-ul configurării pentru stiluri globale."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:529
+#: lib/compat/wordpress-6.4/class-gutenberg-rest-global-styles-revisions-controller-6-4.php:148
+msgid "Global styles."
+msgstr "Stiluri globale."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:539
+msgid "Title of the global styles variation."
+msgstr "Titlul variației pentru stiluri globale."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:545
+msgid "Title for the global styles variation, as it exists in the database."
+msgstr "Titlul variației pentru stiluri globale, așa cum există în baza de date."
+
+#. translators: %s is the Author name.
+#. translators: %s is the Comment Author name
+#: build/block-library/blocks/avatar.php:50
+#: build/block-library/blocks/avatar.php:77
+#: build/block-library/blocks/comment-author-avatar.php:50
+#: build/block-library/index.js:1974 build/block-library/index.js:2012
+msgid "%s Avatar"
+msgstr "Avatar %s"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block style label"
+msgid "Plain"
+msgstr "Simplu"
+
+#: build/block-library/blocks/site-title/block.json
+msgctxt "block description"
+msgid "Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results."
+msgstr "Afișează numele acestui site. Actualizează blocul și modificările făcute se vor aplica peste tot unde blocul este folosit. Va apărea și în bara cu titluri a navigatoarelor și în rezultatele de căutare."
+
+#: build/block-library/blocks/post-navigation-link.php:83
+msgctxt "label before the title of the next post"
+msgid "Next:"
+msgstr "Următor:"
+
+#: build/block-library/blocks/post-navigation-link.php:83
+msgctxt "label before the title of the previous post"
+msgid "Previous:"
+msgstr "Anterior:"
+
+#: build/block-library/blocks/navigation-submenu/block.json
+msgctxt "block title"
+msgid "Submenu"
+msgstr "Sub-meniu"
+
+#: build/block-library/blocks/navigation-submenu/block.json
+msgctxt "block description"
+msgid "Add a submenu to your navigation."
+msgstr "Adaugă un sub-meniu în navigare."
+
+#: build/block-library/blocks/columns/block.json
+msgctxt "block description"
+msgid "Display content in multiple columns, with blocks added to each column."
+msgstr "Afișezi conținut în mai multe coloane, cu blocuri pe fiecare coloană."
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:507
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:295
+msgid "Unique identifier for the post."
+msgstr "Identificator unic pentru articol."
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block description"
+msgid "Create structured content in rows and columns to display information."
+msgstr "Creezi un conținut structurat pe rânduri și coloane pentru a afișa informații."
+
+#: build/block-library/blocks/button/block.json
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block keyword"
+msgid "link"
+msgstr "legătură"
+
+#: build/block-library/blocks/post-template/block.json
+msgctxt "block description"
+msgid "Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more."
+msgstr "Conține elementele de bloc folosite pentru a randa un articol, cum ar fi titlu, dată, imagine reprezentativă, conținut sau rezumat și altele."
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block description"
+msgid "An advanced block that allows displaying post types based on different query parameters and visual configurations."
+msgstr "Un bloc avansat care permite afișarea tipurilor de articol în funcție de diverși parametri de interogare și diferite configurări vizuale."
+
+#: build/block-library/blocks/post-template/block.json
+msgctxt "block title"
+msgid "Post Template"
+msgstr "Șablon de articole"
+
+#: build/block-library/blocks/calendar.php:27
+msgid "The calendar block is hidden because there are no published posts."
+msgstr "Blocul Calendar este ascuns deoarece nu ai articole publicate."
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block keyword"
+msgid "movie"
+msgstr "film"
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block description"
+msgid "Embed a video from your media library or upload a new one."
+msgstr "Înglobează un video din biblioteca media sau încarcă unul nou."
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block keyword"
+msgid "poem"
+msgstr "poem"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block keyword"
+msgid "poetry"
+msgstr "poezie"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block description"
+msgid "Insert poetry. Use special spacing formats. Or quote song lyrics."
+msgstr "Inserează o poezie. Folosește formatele speciale de spațiere. Sau citează versurile cântecului."
+
+#: build/block-library/blocks/text-columns/block.json
+msgctxt "block description"
+msgid "This block is deprecated. Please use the Columns block instead."
+msgstr "Acest bloc este învechit. Te rog folosește în schimb blocul Coloane."
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block style label"
+msgid "Stripes"
+msgstr "Dungi"
+
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block description"
+msgid "A cloud of your most used tags."
+msgstr "Un nor cu etichetele folosite frecvent."
+
+#: build/block-library/blocks/details/block.json
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block keyword"
+msgid "summary"
+msgstr "rezumat"
+
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block keyword"
+msgid "document outline"
+msgstr "schiță document"
+
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block description"
+msgid "Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here."
+msgstr "Face un rezumat al articolului folosind o listă de subtitluri. Adaugă ancore HTML la blocurile Subtitlu pentru a le lega aici."
+
+#: build/block-library/blocks/table-of-contents/block.json
+msgctxt "block title"
+msgid "Table of Contents"
+msgstr "Cuprins"
+
+#: build/block-library/blocks/spacer/block.json
+msgctxt "block description"
+msgid "Add white space between blocks and customize its height."
+msgstr "Adaugă spațiu gol între blocuri și personalizează-i înălțimea."
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block style label"
+msgid "Pill Shape"
+msgstr "Formă de pastilă"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block style label"
+msgid "Logos Only"
+msgstr "Numai logouri"
+
+#: build/block-library/blocks/social-link/block.json
+msgctxt "block description"
+msgid "Display an icon linking to a social profile or site."
+msgstr "Afișează un icon care se leagă la un profil sau un site din media socială."
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block description"
+msgid "Display icons linking to your social profiles or sites."
+msgstr "Afișează iconuri care leagă profilurile sau site-urile tale din media socială."
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block keyword"
+msgid "description"
+msgstr "descriere"
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block description"
+msgid "Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it’s not displayed in the theme design."
+msgstr "Descrie-ți în câteva cuvinte site-ul. Sloganul poate fi folosit în rezultatele de căutare sau la partajarea pe rețelele sociale, chiar dacă nu este afișat în designul temei."
+
+#: build/block-library/blocks/shortcode/block.json
+msgctxt "block description"
+msgid "Insert additional custom elements with a WordPress shortcode."
+msgstr "Inserează elemente personalizate suplimentare cu un scurtcod WordPress."
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block style label"
+msgid "Dots"
+msgstr "Puncte"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block style label"
+msgid "Wide Line"
+msgstr "Linie lată"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block keyword"
+msgid "divider"
+msgstr "despărțitor"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block description"
+msgid "Create a break between ideas or sections with a horizontal separator."
+msgstr "Separă ideile sau secțiunile cu un separator orizontal."
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block keyword"
+msgid "hr"
+msgstr "hr"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block keyword"
+msgid "horizontal-line"
+msgstr "linie orizontală"
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block keyword"
+msgid "find"
+msgstr "găsește"
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block description"
+msgid "Help visitors find your content."
+msgstr "Ajută-ți vizitatorii să-ți găsească conținutul."
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block keyword"
+msgid "feed"
+msgstr "flux"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block keyword"
+msgid "atom"
+msgstr "atom"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block description"
+msgid "Display entries from any RSS or Atom feed."
+msgstr "Afișează intrările din toate fluxurile RSS sau Atom."
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block keyword"
+msgid "cite"
+msgstr "citează"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block keyword"
+msgid "blockquote"
+msgstr "citat"
+
+#: build/block-library/blocks/query-title/block.json
+msgctxt "block description"
+msgid "Display the query title."
+msgstr "Afișează titlul interogării."
+
+#: build/block-library/blocks/query-title/block.json
+msgctxt "block title"
+msgid "Query Title"
+msgstr "Titlu interogare"
+
+#: build/block-library/blocks/query-pagination/block.json
+msgctxt "block description"
+msgid "Displays a paginated navigation to next/previous set of posts, when applicable."
+msgstr "Afișează o navigare cu pagini la setul următor/anterior de articole, când este cazul."
+
+#: build/block-library/blocks/query-pagination-previous/block.json
+msgctxt "block description"
+msgid "Displays the previous posts page link."
+msgstr "Afișează legătura la pagina cu articolele anterioare."
+
+#: build/block-library/blocks/query-pagination-numbers/block.json
+msgctxt "block description"
+msgid "Displays a list of page numbers for pagination."
+msgstr "Afișează o listă cu numere de pagini pentru paginație."
+
+#: build/block-library/blocks/query-pagination-next/block.json
+msgctxt "block description"
+msgid "Displays the next posts page link."
+msgstr "Afișează legătura la pagina cu articolele următoare."
+
+#: build/block-library/blocks/pullquote/block.json
+msgctxt "block description"
+msgid "Give special visual emphasis to a quote from your text."
+msgstr "Accentuează vizual un citat din textul tău."
+
+#: build/block-library/blocks/preformatted/block.json
+msgctxt "block description"
+msgid "Add text that respects your spacing and tabs, and also allows styling."
+msgstr "Adaugă text care respectă spațierea și filele și permite, de asemenea, designul."
+
+#: build/block-library/blocks/post-title/block.json
+msgctxt "block description"
+msgid "Displays the title of a post, page, or any other content-type."
+msgstr "Afișează titlul unui articol, unei pagini sau oricărui alt tip de conținut."
+
+#: build/block-library/blocks/post-terms/block.json
+msgctxt "block description"
+msgid "Post terms."
+msgstr "Termeni articol."
+
+#: build/block-library/blocks/post-navigation-link/block.json
+msgctxt "block description"
+msgid "Displays the next or previous post link that is adjacent to the current post."
+msgstr "Afișează legătura la articolul următor sau anterior care este adiacent la articol."
+
+#: build/block-library/blocks/post-navigation-link/block.json
+msgctxt "block title"
+msgid "Post Navigation Link"
+msgstr "Legătură pentru navigarea în articole"
+
+#: build/block-library/blocks/post-featured-image/block.json
+msgctxt "block description"
+msgid "Display a post's featured image."
+msgstr "Afișează imaginea reprezentativă a unui articol."
+
+#: build/block-library/blocks/post-content/block.json
+msgctxt "block description"
+msgid "Displays the contents of a post or page."
+msgstr "Afișează conținutul unui articol sau a unei pagini."
+
+#: build/block-library/blocks/post-comments-link/block.json
+msgctxt "block description"
+msgid "Displays the link to the current post comments."
+msgstr "Afișează legătura la comentariile la articolul curent."
+
+#: build/block-library/blocks/post-excerpt/block.json
+msgctxt "block description"
+msgid "Display the excerpt."
+msgstr "Afișează rezumatul."
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block keyword"
+msgid "text"
+msgstr "text"
+
+#: build/block-library/blocks/post-comments-count/block.json
+msgctxt "block description"
+msgid "Display a post's comments count."
+msgstr "Afișează numărul de comentarii la un articol."
+
+#: build/block-library/blocks/post-comments-form/block.json
+msgctxt "block description"
+msgid "Display a post's comments form."
+msgstr "Afișează un formular de comentarii la articole."
+
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block description"
+msgid "Display a list of all pages."
+msgstr "Afișează o listă cu toate paginile."
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block keyword"
+msgid "pagination"
+msgstr "paginație"
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block keyword"
+msgid "next page"
+msgstr "pagina următoare"
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block description"
+msgid "Separate your content into a multi-page experience."
+msgstr "Separă-ți conținutul într-o experiență pe mai multe pagini."
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block description"
+msgid "Start with the basic building block of all narrative."
+msgstr "Începe cu blocul de bază pentru construirea întregii narațiuni."
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/page-list-item/block.json
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block keyword"
+msgid "navigation"
+msgstr "navigare"
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/page-list-item/block.json
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block keyword"
+msgid "menu"
+msgstr "meniu"
+
+#: build/block-library/blocks/navigation-link/block.json
+msgctxt "block description"
+msgid "Add a page, link, or another item to your navigation."
+msgstr "Adaugă o pagină, o legătură sau un alt element în navigare."
+
+#: build/block-library/blocks/navigation/block.json
+msgctxt "block description"
+msgid "A collection of blocks that allow visitors to get around your site."
+msgstr "O colecție de blocuri care le permite vizitatorilor să navigheze pe site-ul tău."
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block keyword"
+msgid "read more"
+msgstr "citește mai mult"
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block description"
+msgid "Content before this block will be shown in the excerpt on your archives page."
+msgstr "Conținutul găsit înainte de acest bloc va fi arătat în rezumatul din pagina ta arhive."
+
+#: build/block-library/blocks/missing/block.json
+msgctxt "block description"
+msgid "Your site doesn’t include support for this block."
+msgstr "Site-ul tău nu include suport pentru acest bloc."
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block keyword"
+msgid "video"
+msgstr "video"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr "imagine"
+
+#: build/block-library/blocks/form-input/block.json
+#: build/block-library/blocks/form-submission-notification/block.json
+#: build/block-library/blocks/form-submit-button/block.json
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "formular"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block keyword"
+msgid "logout"
+msgstr "dezautentificare"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block keyword"
+msgid "login"
+msgstr "autentificare"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block description"
+msgid "Set media and words side-by-side for a richer layout."
+msgstr "Setează media și cuvintele adiacente media pentru un aranjament mai bogat."
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block description"
+msgid "Display a list of your most recent posts."
+msgstr "Afișează o listă cu cele mai recente articole."
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block description"
+msgid "Show login & logout links."
+msgstr "Arată legăturile pentru autentificare și dezautentificare."
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block keyword"
+msgid "numbered list"
+msgstr "listă numerotată"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block keyword"
+msgid "ordered list"
+msgstr "listă ordonată"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block keyword"
+msgid "bullet list"
+msgstr "listă cu buline"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block description"
+msgid "Create a bulleted or numbered list."
+msgstr "Creează o listă cu buline sau numerotată."
+
+#: build/widgets/blocks/legacy-widget/block.json
+msgctxt "block description"
+msgid "Display a legacy widget."
+msgstr "Afișează o piesă tradițională."
+
+#: build/widgets/blocks/legacy-widget/block.json
+msgctxt "block title"
+msgid "Legacy Widget"
+msgstr "Piesă tradițională"
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block keyword"
+msgid "recent posts"
+msgstr "articole recente"
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block keyword"
+msgid "recent comments"
+msgstr "comentarii recente"
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block description"
+msgid "Display a list of your most recent comments."
+msgstr "Afișează o listă cu cele mai recente comentarii."
+
+#: build/block-library/blocks/image/block.json
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block style label"
+msgid "Rounded"
+msgstr "Rotunjit"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block keyword"
+msgid "picture"
+msgstr "poză"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block keyword"
+msgid "photo"
+msgstr "fotografie"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block keyword"
+msgid "img"
+msgstr "img"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block description"
+msgid "Insert an image to make a visual statement."
+msgstr "Inserează o imagine pentru a avea o expunere vizuală."
+
+#: build/block-library/blocks/image/block.json
+#: build/block-library/blocks/quote/block.json
+#: build/block-library/blocks/separator/block.json
+#: build/block-library/blocks/site-logo/block.json
+#: build/block-library/blocks/social-links/block.json
+#: build/block-library/blocks/table/block.json
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block style label"
+msgid "Default"
+msgstr "Implicit"
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block keyword"
+msgid "embed"
+msgstr "înglobează"
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block description"
+msgid "Add custom HTML code and preview it as you edit."
+msgstr "Adaugi cod HTML personalizat și îl previzualizezi pe măsură ce editezi."
+
+#: build/block-library/blocks/home-link/block.json
+msgctxt "block description"
+msgid "Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header."
+msgstr "Creează o legătură care te duce mereu la prima pagină a site-ului. De obicei, nu este necesară dacă există deja în antet o legătură la titlul site-ului."
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block keyword"
+msgid "subtitle"
+msgstr "subtitlu"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block keyword"
+msgid "title"
+msgstr "titlu"
+
+#: build/block-library/blocks/home-link/block.json
+msgctxt "block title"
+msgid "Home Link"
+msgstr "Legătură la prima pagină"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "section"
+msgstr "secțiune"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "row"
+msgstr "rând"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "wrapper"
+msgstr "învelitoare"
+
+#: build/block-library/blocks/form/block.json
+#: build/block-library/blocks/group/block.json
+msgctxt "block keyword"
+msgid "container"
+msgstr "container"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block keyword"
+msgid "photos"
+msgstr "fotografii"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block keyword"
+msgid "images"
+msgstr "imagini"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block description"
+msgid "Display multiple images in a rich gallery."
+msgstr "Afișează mai multe imagini într-o galerie bogată."
+
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block description"
+msgid "Use the classic WordPress editor."
+msgstr "Folosește editorul clasic WordPress."
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block keyword"
+msgid "download"
+msgstr "descarcă"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block keyword"
+msgid "pdf"
+msgstr "pdf"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block keyword"
+msgid "document"
+msgstr "document"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block description"
+msgid "Add a link to a downloadable file."
+msgstr "Adaugă o legătură la un fișier care poate fi descărcat."
+
+#: build/block-library/blocks/code/block.json
+msgctxt "block description"
+msgid "Display code snippets that respect your spacing and tabs."
+msgstr "Afișează fragmente de cod care respectă spațierea și filele."
+
+#: build/block-library/blocks/categories/block.json
+msgctxt "block description"
+msgid "Display a list of all categories."
+msgstr "Afișează o listă cu toate categoriile."
+
+#: build/block-library/blocks/column/block.json
+msgctxt "block description"
+msgid "A single column within a columns block."
+msgstr "O singură coloană într-un bloc Coloane."
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block keyword"
+msgid "archive"
+msgstr "arhivă"
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block keyword"
+msgid "posts"
+msgstr "articole"
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block description"
+msgid "A calendar of your site’s posts."
+msgstr "Un calendar al articolelor de pe site-ul tău."
+
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block description"
+msgid "Prompt visitors to take action with a group of button-style links."
+msgstr "Îndeamnă vizitatorii să acționeze printr-un grup de legături de tip buton."
+
+#: build/block-library/blocks/button/block.json
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block style label"
+msgid "Outline"
+msgstr "Contur"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block style label"
+msgid "Fill"
+msgstr "Umple"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block description"
+msgid "Prompt visitors to take action with a button-style link."
+msgstr "Îndeamnă vizitatorii să acționeze printr-o legătură de tip buton."
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "recording"
+msgstr "înregistrare"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "podcast"
+msgstr "podcast"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "sound"
+msgstr "sunet"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block keyword"
+msgid "music"
+msgstr "muzică"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block description"
+msgid "Embed a simple audio player."
+msgstr "Înglobează un player audio simplu."
+
+#: build/block-library/blocks/archives/block.json
+msgctxt "block description"
+msgid "Display a date archive of your posts."
+msgstr "Afișează o arhivă cu datele articolelor tale."
+
+#: build/block-library/blocks/navigation.php:489
+#: build/block-library/index.js:32718
+msgid "Close menu"
+msgstr "Închide meniul"
+
+#: build/block-library/blocks/navigation.php:488
+#: build/block-library/index.js:32702
+msgid "Open menu"
+msgstr "Deschide meniul"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:156
+msgid "Styles consolidated from core, theme, and user origins."
+msgstr "Stiluri consolidate din originile nucleului, temei și utilizatorilor."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:150
+msgid "Settings consolidated from core, theme, and user origins."
+msgstr "Setări consolidate din originile nucleului, temei și utilizatorilor."
+
+#: build/block-library/blocks/site-logo.php:47
+msgid "(Home link, opens in a new tab)"
+msgstr "(Legătură la prima pagină, se deschide într-o filă nouă)"
+
+#: lib/compat/wordpress-6.6/option.php:18
+msgid "Page on front"
+msgstr "Pagina din față"
+
+#: lib/compat/wordpress-6.6/option.php:17
+msgid "Show on front"
+msgstr "Arată în față"
+
+#: build/block-library/blocks/site-logo.php:77
+msgid "Logo"
+msgstr "Logo"
+
+#: lib/compat/wordpress-6.6/option.php:16
+msgid "Tagline"
+msgstr "Slogan"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:294
+msgid "Active theme gradients."
+msgstr "Gradienți pentru tema activă."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:288
+msgid "Active theme font sizes."
+msgstr "Dimensiuni fonturi pentru tema activă."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:282
+msgid "Active theme color palette."
+msgstr "Paletă de culori pentru tema activă."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:276
+msgid "Maximum upload size in bytes allowed for the site."
+msgstr "Dimensiunea maximă de încărcare, în octeți, permisă pentru site."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:270
+msgid "Available image sizes."
+msgstr "Dimensiuni disponibile pentru imagini."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:264
+msgid "Determines whether the image editing feature is enabled."
+msgstr "Determină dacă este activată funcționalitatea editare imagini."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:258
+msgid "Available image dimensions."
+msgstr "Dimensiuni disponibile pentru imagini."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:252
+msgid "Default size for images."
+msgstr "Dimensiuni implicite pentru imagini."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:246
+msgid "Determines whether the current locale is right-to-left (RTL)."
+msgstr "Determină dacă locala curentă este de la dreapta la stânga (RTL)."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:240
+msgid "Enables custom units."
+msgstr "Activează unitățile personalizate."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:234
+msgid "Enables custom spacing."
+msgstr "Activează spațierea personalizată."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:228
+msgid "Enables custom line height."
+msgstr "Activează înălțime linie personalizată."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:210
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:216
+msgid "Disables custom font size."
+msgstr "Dezactivează dimensiunea pentru font personalizat."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:204
+msgid "Disables custom colors."
+msgstr "Dezactivează culorile personalizate."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:192
+msgid "Returns all the categories for block types that will be shown in the block editor."
+msgstr "Returnează toate categoriile pentru tipurile de bloc care vor fi afișate în editorul de blocuri."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:186
+msgid "List of allowed mime types and file extensions."
+msgstr "Listă cu tipuri de mime și extensii de fișiere permise."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:180
+msgid "List of allowed block types."
+msgstr "Listă cu tipuri de bloc permise."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:174
+msgid "Enable/Disable Wide/Full Alignments."
+msgstr "Activează/dezactivează alinierile late/complete."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:144
+msgid "Widget types to hide from Legacy Widget block."
+msgstr "Tipuri de piese care să fie ascunse în blocul Piesă tradițională."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:138
+msgid "Enable/disable layouts support in container blocks."
+msgstr "Activează/dezactivează suportul pentru aranjamente în blocurile container."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:126
+msgid "Editor styles"
+msgstr "Stiluri editor"
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:65
+msgid "Sorry, you are not allowed to read the block editor settings."
+msgstr "Regret, nu ai voie să citești setările editorului de blocuri."
+
+#: lib/experimental/class-wp-rest-block-editor-settings-controller.php:120
+msgid "Enables experimental Site Editor blocks"
+msgstr "Activează blocuri experimentale pentru Editorul de site-uri"
+
+#: build/block-library/blocks/term-description/block.json
+msgctxt "block title"
+msgid "Term Description"
+msgstr "Descriere termen"
+
+#: build/block-library/blocks/term-description/block.json
+msgctxt "block description"
+msgid "Display the description of categories, tags and custom taxonomies when viewing an archive."
+msgstr "Afișează descrierea categoriilor, etichetelor și taxonomiilor personalizate la vizualizarea unei arhive."
+
+#: build/block-library/blocks/post-comments-link/block.json
+msgctxt "block title"
+msgid "Comments Link"
+msgstr "Legătură la comentarii"
+
+#: build/block-library/blocks/loginout/block.json
+msgctxt "block title"
+msgid "Login/out"
+msgstr "Autentificare/dezautentificare"
+
+#: build/block-library/blocks/file.php:48 build/block-library/index.js:16901
+#: build/block-library/index.js:17005 build/block-library/index.js:17101
+msgid "PDF embed"
+msgstr "Înglobare PDF"
+
+#. translators: %s: filename.
+#: build/block-library/blocks/file.php:46 build/block-library/index.js:16902
+#: build/block-library/index.js:17006 build/block-library/index.js:17102
+msgid "Embed of %s."
+msgstr "Înglobează %s."
+
+#: build/block-library/blocks/navigation-link/block.json
+msgctxt "block title"
+msgid "Custom Link"
+msgstr "Legătură personalizată"
+
+#. translators: %s post title
+#: build/block-library/blocks/post-comments-link.php:41
+msgid "No comments<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Niciun comentariu<span class=\"screen-reader-text\"> la %s</span>"
+
+#: build/block-library/blocks/latest-posts.php:169
+#: build/block-library/blocks/latest-posts.php:184
+#: build/block-library/index.js:40644
+msgid "This content is password protected."
+msgstr "Acest conținut este protejat cu parolă."
+
+#. translators: 1: Number of comments, 2: post title
+#: build/block-library/blocks/post-comments-link.php:47
+msgid "%1$s comment<span class=\"screen-reader-text\"> on %2$s</span>"
+msgid_plural "%1$s comments<span class=\"screen-reader-text\"> on %2$s</span>"
+msgstr[0] "Un comentariu<span class=\"screen-reader-text\"> la %2$s</span>"
+msgstr[1] "%1$s comentarii<span class=\"screen-reader-text\"> la %2$s</span>"
+msgstr[2] "%1$s de comentarii<span class=\"screen-reader-text\"> la %2$s</span>"
+
+#: build/block-library/blocks/navigation-link.php:330
+msgid "A link to a post format"
+msgstr "O legătură la un format de articol"
+
+#: build/block-library/blocks/navigation-link.php:329
+msgid "Post Format Link"
+msgstr "Legătură la format de articol"
+
+#: build/block-library/blocks/post-navigation-link.php:40
+msgctxt "label for next post link"
+msgid "Next"
+msgstr "Următor"
+
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block title"
+msgid "Page List"
+msgstr "Listă pagini"
+
+#: build/block-library/blocks/post-navigation-link.php:40
+msgctxt "label for previous post link"
+msgid "Previous"
+msgstr "Anterior"
+
+#: build/block-library/blocks/template-part/block.json
+msgctxt "block description"
+msgid "Edit the different global regions of your site, like the header, footer, sidebar, or create your own."
+msgstr "Editezi diferite regiuni globale ale site-ului tău, cum ar fi antetul, subsolul, bara laterală, sau creezi unele proprii."
+
+#: build/block-library/blocks/query-pagination-previous.php:26
+#: build/block-library/index.js:47835
+msgid "Previous Page"
+msgstr "Pagina anterioară"
+
+#: build/block-library/blocks/query-pagination-next.php:29
+#: build/block-library/index.js:47590
+msgid "Next Page"
+msgstr "Pagina următoare"
+
+#. translators: %s: Template part slug.
+#. translators: %s: Template part slug
+#: build/block-library/blocks/template-part.php:120
+#: build/block-library/index.js:58896
+msgid "Template part has been deleted or is unavailable: %s"
+msgstr "Partea de șablon a fost ștearsă sau este indisponibilă: %s"
+
+#: build/block-library/blocks/comments-pagination-numbers/block.json
+msgctxt "block title"
+msgid "Comments Page Numbers"
+msgstr "Numere paginație comentarii"
+
+#. translators: Visible only in the front end, this warning takes the place of
+#. a faulty block.
+#: build/block-library/blocks/block.php:38
+#: build/block-library/blocks/post-content.php:34
+#: build/block-library/blocks/template-part.php:131
+msgid "[block rendering halted]"
+msgstr "[randarea blocului a fost oprită]"
+
+#: build/block-library/blocks/archives/block.json
+msgctxt "block title"
+msgid "Archives"
+msgstr "Arhive"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block title"
+msgid "Gallery"
+msgstr "Galerie"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block title"
+msgid "Quote"
+msgstr "Citat"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block title"
+msgid "Heading"
+msgstr "Subtitlu"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block title"
+msgid "Image"
+msgstr "Imagine"
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block title"
+msgid "Paragraph"
+msgstr "Paragraf"
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block title"
+msgid "Latest Comments"
+msgstr "Ultimele comentarii"
+
+#: build/block-library/blocks/navigation/block.json
+msgctxt "block title"
+msgid "Navigation"
+msgstr "Navigare"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block title"
+msgid "Media & Text"
+msgstr "Media și text"
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block title"
+msgid "Custom HTML"
+msgstr "HTML personalizat"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block title"
+msgid "File"
+msgstr "Fișier"
+
+#: build/block-library/blocks/cover/block.json
+msgctxt "block title"
+msgid "Cover"
+msgstr "Copertă"
+
+#: build/block-library/blocks/column/block.json
+msgctxt "block title"
+msgid "Column"
+msgstr "Coloană"
+
+#: build/block-library/blocks/columns/block.json
+msgctxt "block title"
+msgid "Columns"
+msgstr "Coloane"
+
+#: build/block-library/blocks/code/block.json
+msgctxt "block title"
+msgid "Code"
+msgstr "Cod"
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block title"
+msgid "Calendar"
+msgstr "Calendar"
+
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block title"
+msgid "Buttons"
+msgstr "Butoane"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr "Buton"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block title"
+msgid "Audio"
+msgstr "Audio"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block title"
+msgid "RSS"
+msgstr "RSS"
+
+#: build/block-library/blocks/pullquote/block.json
+msgctxt "block title"
+msgid "Pullquote"
+msgstr "Citare concisă"
+
+#: build/block-library/blocks/preformatted/block.json
+msgctxt "block title"
+msgid "Preformatted"
+msgstr "Pre-formatat"
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block title"
+msgid "Page Break"
+msgstr "Sfârșit de pagină"
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block title"
+msgid "More"
+msgstr "Mai multe"
+
+#: build/block-library/blocks/missing/block.json
+msgctxt "block title"
+msgid "Unsupported"
+msgstr "Neacceptat"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block title"
+msgid "List"
+msgstr "Listă"
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block title"
+msgid "Latest Posts"
+msgstr "Ultimele articole"
+
+#: build/block-library/blocks/spacer/block.json
+msgctxt "block title"
+msgid "Spacer"
+msgstr "Distanțier"
+
+#: build/block-library/blocks/shortcode/block.json
+msgctxt "block title"
+msgid "Shortcode"
+msgstr "Scurtcod"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block title"
+msgid "Separator"
+msgstr "Separator"
+
+#: build/block-library/blocks/group/block.json
+msgctxt "block title"
+msgid "Group"
+msgstr "Grup"
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block title"
+msgid "Search"
+msgstr "Căutare"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block title"
+msgid "Query Loop"
+msgstr "Buclă interogări"
+
+#: build/block-library/blocks/social-link/block.json
+msgctxt "block title"
+msgid "Social Icon"
+msgstr "Icon social"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block title"
+msgid "Social Icons"
+msgstr "Iconuri sociale"
+
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block title"
+msgid "Tag Cloud"
+msgstr "Nor de etichete"
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block title"
+msgid "Video"
+msgstr "Video"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block title"
+msgid "Verse"
+msgstr "Vers"
+
+#: build/block-library/blocks/text-columns/block.json
+msgctxt "block title"
+msgid "Text Columns (deprecated)"
+msgstr "Coloane text (învechit)"
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block title"
+msgid "Table"
+msgstr "Tabel"
+
+#: build/block-library/blocks/template-part/block.json
+msgctxt "block title"
+msgid "Template Part"
+msgstr "Parte de șablon"
+
+#: build/block-library/blocks/post-terms/block.json
+msgctxt "block title"
+msgid "Post Terms"
+msgstr "Termeni articol"
+
+#: build/block-library/blocks/site-title/block.json
+msgctxt "block title"
+msgid "Site Title"
+msgstr "Titlu site"
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block title"
+msgid "Site Tagline"
+msgstr "Slogan site"
+
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block title"
+msgid "Site Logo"
+msgstr "Logo site"
+
+#: build/block-library/index.js:9522
+#: build/block-library/blocks/comment-date/block.json
+msgctxt "block title"
+msgid "Comment Date"
+msgstr "Dată comentariu"
+
+#: build/block-library/index.js:9370
+#: build/block-library/blocks/comment-content/block.json
+msgctxt "block title"
+msgid "Comment Content"
+msgstr "Conținut comentariu"
+
+#: build/block-library/blocks/post-featured-image/block.json
+msgctxt "block title"
+msgid "Featured Image"
+msgstr "Imagine reprezentativă"
+
+#: build/block-library/blocks/post-comments-count/block.json
+msgctxt "block title"
+msgid "Comments Count"
+msgstr "Număr de comentarii"
+
+#: build/block-library/blocks/post-comments-form/block.json
+msgctxt "block title"
+msgid "Comments Form"
+msgstr "Formular de comentarii"
+
+#: lib/compat/wordpress-6.6/class-gutenberg-rest-templates-controller-6-6.php:37
+#: lib/compat/wordpress-6.6/class-gutenberg-rest-templates-controller-6-6.php:93
+msgid "Sorry, you are not allowed to access the templates on this site."
+msgstr "Regret, nu ai voie să accesezi șabloane pe acest site."
+
+#: lib/class-wp-rest-global-styles-controller-gutenberg.php:99
+msgid "The id of a template"
+msgstr "ID-ul șablonului"
+
+#: lib/compat/wordpress-6.5/fonts/fonts.php:27
+msgid "Font Family"
+msgstr "Familie de fonturi"
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:100
+msgid "Whether to bypass Trash and force deletion."
+msgstr "Dacă ignori aruncarea la gunoi și forțezi ștergerea."
+
+#: build/block-library/blocks/site-logo.php:78
+msgid "Site logo."
+msgstr "Logo site."
+
+#. translators: byline. %s: current author.
+#. translators: %s: the author.
+#: build/block-library/blocks/latest-posts.php:127
+#: build/block-library/blocks/rss.php:66 build/block-library/index.js:27877
+msgid "by %s"
+msgstr "de %s"
+
+#: lib/compat/wordpress-6.5/block-patterns.php:60
+msgid "No pattern categories"
+msgstr "Nicio categorie de modele"
+
+#: build/block-library/blocks/query-title.php:41
+#: build/block-library/index.js:48009
+msgid "Search results"
+msgstr "Rezultate de căutare"
+
+#. translators: Theme and Directory Patterns tab title in the block inserter.
+#: lib/compat/wordpress-6.5/compat.php:67 build/block-editor/index.js:51998
+#: build/block-editor/index.js:53200 build/block-editor/index.js:58540
+#: build/core-commands/index.js:556 build/edit-site/index.js:37818
+#: build/edit-site/index.js:40603 build/core-commands/index.min.js:541
+msgid "Patterns"
+msgstr "Modele"
+
+#. translators: accessibility text for the content landmark region.
+#: lib/experimental/navigation-theme-opt-in.php:349
+#: build/block-editor/index.js:23820 build/block-editor/index.js:35208
+#: build/block-editor/index.js:71993 build/edit-widgets/index.js:1394
+#: build/editor/index.js:7390 build/editor/index.js:24117
+#: build/edit-widgets/index.min.js:1429 build/editor/index.min.js:7707
+#: build/editor/index.min.js:27411
+msgid "Content"
+msgstr "Conținut"
+
+#: build/block-library/blocks/navigation.php:485
+#: build/block-library/blocks/navigation.php:604
+#: build/block-library/index.js:32697 build/block-library/index.js:32707
+#: build/block-library/index.js:34485 build/block-library/index.js:34921
+#: build/core-data/index.js:19653
+msgid "Menu"
+msgstr "Meniu"
+
+#. translators: 'Home' as in a website's home page.
+#: build/block-library/blocks/home-link.php:143
+#: build/block-library/index.js:24113 build/block-library/index.js:35863
+msgid "Home"
+msgstr "Prima pagină"
+
+#: lib/experimental/class-wp-rest-customizer-nonces.php:53
+msgid "Sorry, you are not allowed to edit posts in this post type."
+msgstr "Regret, nu ai voie să editezi articole în acest tip de articol."
+
+#. translators: %s: force=true
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:429
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-families-controller.php:216
+msgid "Font faces do not support trashing. Set \"%s\" to delete."
+msgstr "Font Face nu pot fi aruncate la gunoi. Setează „%s” pentru a șterge."
+
+#: build/block-library/blocks/navigation/block.json
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block keyword"
+msgid "links"
+msgstr "legături"
+
+#: lib/experiments-page.php:163
+msgid "The block editor includes experimental features that are useable while they're in development. Select the ones you'd like to enable. These features are likely to change, so avoid using them in production."
+msgstr "Editorul de blocuri include funcționalități experimentale care pot fi folosite în timp ce sunt în dezvoltare. Selectează-le pe cele care vrei să le activezi. Este posibil ca aceste funcționalități să sufere modificări importante, deci evită utilizarea lor în producție."
+
+#: lib/init.php:52
+msgid "Experiments Settings"
+msgstr "Setări experimente"
+
+#: lib/experiments-page.php:20
+msgid "Experimental settings"
+msgstr "Setări experimentale"
+
+#: build/block-library/blocks/rss.php:29
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "A apărut o eroare, care, probabil, înseamnă că fluxul nu funcționează. Reîncercă mai târziu."
+
+#: build/block-library/blocks/rss.php:25
+msgid "RSS Error:"
+msgstr "Eroare RSS:"
+
+#: build/block-library/blocks/search.php:27
+#: build/block-library/blocks/search.php:28
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:51262
+#: build/block-editor/index.js:52893 build/block-editor/index.js:53351
+#: build/block-editor/index.js:53550 build/block-library/index.js:46438
+#: build/block-library/index.js:50175 build/block-library/index.js:50353
+#: build/block-library/index.js:50354 build/block-library/index.js:50472
+#: build/block-library/index.js:50473 build/block-library/index.js:58288
+#: build/components/index.js:61602 build/components/index.js:61603
+#: build/edit-site/index.js:15800 build/edit-site/index.js:18112
+#: build/edit-site/index.js:32240 build/edit-site/index.js:32700
+msgid "Search"
+msgstr "Caută"
+
+#. translators: If your word count is based on single characters (e.g. East
+#. Asian characters), enter 'characters_excluding_spaces' or
+#. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
+#. into your own language.
+#: lib/experimental/l10n.php:23 build/block-library/index.js:41200
+#: build/block-library/index.js:43191 build/edit-site/index.js:38837
+#: build/editor/index.js:17141 build/editor/index.js:17178
+#: build/editor/index.js:23585 build/editor/index.min.js:18787
+#: build/editor/index.min.js:18829 build/editor/index.min.js:26746
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "cuvinte"
+
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block title"
+msgid "Classic"
+msgstr "Clasic"
+
+#: build/block-library/index.js:15838
+#: build/block-library/blocks/embed/block.json
+msgctxt "block title"
+msgid "Embed"
+msgstr "Înglobează"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block description"
+msgid "Introduce new sections and organize content to help visitors (and search engines) understand the structure of your content."
+msgstr "Introdu secțiuni noi și organizează conținutul pentru a ajuta vizitatorii (și motoarele de căutare) să înțeleagă structura conținutului tău."
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block description"
+msgid "Give quoted text visual emphasis. \"In quoting others, we cite ourselves.\" — Julio Cortázar"
+msgstr "Accentuează vizual textul citat. „Citând pe alții, ne cităm pe noi înșine.” - Julio Cortázar"
+
+#. translators: Abbreviated date/time format, see
+#. https://www.php.net/manual/datetime.format.php
+#: lib/compat/wordpress-6.5/script-loader.php:87
+msgid "M j, Y g:i a"
+msgstr "j M Y G:i"
+
+#: lib/class-wp-theme-json-gutenberg.php:3728 build/block-editor/index.js:12692
+#: build/components/index.js:58923
+msgid "Medium"
+msgstr "Mediu"
+
+#: build/block-library/blocks/archives.php:98
+msgid "No archives to show."
+msgstr "Nicio arhivă de arătat."
+
+#: lib/compat/wordpress-6.6/option.php:15 build/block-library/index.js:26100
+#: build/block-library/index.js:43363 build/block-library/index.js:58559
+#: build/edit-site/index.js:33603 build/edit-site/index.js:35391
+#: build/editor/index.js:8132 build/editor/index.js:22702
+#: build/widgets/index.js:1347 build/editor/index.min.js:8530
+#: build/editor/index.min.js:25617 build/widgets/index.min.js:1354
+msgid "Title"
+msgstr "Titlu"
+
+#: post-content.php:41
+msgid "Beautiful landscape"
+msgstr "Peisaj frumos"
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "Comunitatea WordPress"
+
+#: post-content.php:177
+msgid "Help build Gutenberg"
+msgstr "Ajută la construirea Gutenberg"
+
+#. translators: %s: Gutenberg GitHub repository URL
+#: post-content.php:168
+msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
+msgstr "Dacă vrei să afli mai multe despre cum să construiești blocuri suplimentare sau dacă ești interesat să ajuți proiectul, mergi la <a href=\"%s\">depozitarul GitHub</a>."
+
+#: post-content.php:159 build/block-library/index.js:24000
+msgid "Code is Poetry"
+msgstr "Codul este poezie"
+
+#: post-content.php:89
+msgid "Matt Mullenweg, 2017"
+msgstr "Matt Mullenweg, 2017"
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "Editorul se va strădui să creeze o nouă experiență în construirea articolelor și paginilor care să facă facilă scrierea unor articole bogate și are „blocuri” care să ușureze ceea ce fac astăzi scurt-codurile, HTML-ul personalizat și altele."
+
+#: post-content.php:155
+msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
+msgstr "Poți să construiești orice bloc vrei, static sau dinamic, decorativ sau simplu. Iată un bloc cu o citare succintă:"
+
+#: post-content.php:145
+msgid "Any block can opt into these alignments. The embed block has them also, and is responsive out of the box:"
+msgstr "Toate blocurile pot folosi aceste alinieri. Blocul de înglobare le are, de asemenea, și este gata de funcționare:"
+
+#: post-content.php:141
+msgid "The above is a gallery with just two images. It&#8217;s an easier way to create visually appealing layouts, without having to deal with floats. You can also easily convert the gallery back to individual images again, by using the block switcher."
+msgstr "Mai sus este o galerie cu doar două imagini. Este o modalitate mai ușoară de a crea aranjamente atrăgătoare din punct de vedere vizual, fără nicio problemă. De asemenea, poți converti ușor galeria înapoi la imagini individuale, folosind comutatorul pentru blocuri."
+
+#: post-content.php:128
+msgid "Sure, the full-wide image can be pretty big. But sometimes the image is worth it."
+msgstr "Desigur, imaginea în lățime completă poate fi destul de mare. Dar uneori imaginea merită."
+
+#: post-content.php:112
+msgid "You can change the amount of columns in your galleries by dragging a slider in the block inspector in the sidebar."
+msgstr "Poți modifica numărul de coloane din galerii prin tragerea unui carusel în inspectorul de blocuri din bara laterală."
+
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "Blocurile pot face orice ai nevoie. De exemplu, poate vrei să adaugi un citat discret în conținutul textului sau poate preferi să afișezi unul cu litere uriașe. Toate aceste opțiuni sunt disponibile în dispozitivul de inserare."
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "Informațiile corespunzătoare sursei citatului sunt într-un câmp de text separat, similar cu textele asociate de sub imagini, astfel structura citatului este protejată chiar dacă selectezi, modifici sau înlături sursa. Este mereu ușor să-l adaugi înapoi."
+
+#: post-content.php:124
+msgid "Accessibility is important &mdash; don&#8217;t forget image alt attribute"
+msgstr "Accesibilitatea este importantă &mdash; nu uita de atributul alternativă imagine"
+
+#: post-content.php:120
+msgid "If you combine the new <strong>wide</strong> and <strong>full-wide</strong> alignments with galleries, you can create a very media rich layout, very quickly:"
+msgstr "Dacă combini noile alinieri <strong>mare</strong> și <strong>lățime completă</strong> cu galeriile, poți crea un aranjament cu foarte multe elemente media, foarte repede:"
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "Multă media"
+
+#: post-content.php:185
+msgid "Thanks for testing Gutenberg!"
+msgstr "Îți mulțumim că testezi Gutenberg!"
+
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "Bine ai venit la editorul Gutenberg"
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Înglobări, cum ar fi YouTube, twituri sau alte articole WordPress."
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Galerii"
+
+#: post-content.php:66
+msgid "Images &amp; Videos"
+msgstr "Imagini și videouri"
+
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "Text și subtitluri"
+
+#: post-content.php:60
+msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
+msgstr "Încearcă-l, poți descoperi unele lucruri pe care WordPress poate le-a adăugat deja în articolele tale, de care nu știai. Iată o scurtă listă cu ceea ce poți găsi în prezent:"
+
+#: post-content.php:83
+msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
+msgstr "Un avantaj imens al blocurilor este că le poți edita pe loc și să-ți gestionezi direct conținutul. În loc să ai câmpuri pentru editarea elementelor, cum ar fi sursa unui citat sau textul unui buton, poți schimba direct conținutul. Încearcă editarea citatului următor:"
+
+#: post-content.php:79
+msgid "Visual Editing"
+msgstr "Editare vizuală"
+
+#: post-content.php:48
+msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
+msgstr "Încearcă selectarea și înlăturarea sau editarea textului asociat, acum nu trebuie să fii foarte atent dacă selectezi o imagine sau un alt text din greșeală pentru că nu strici prezentarea."
+
+#: post-content.php:32
+msgid "A Picture is Worth a Thousand Words"
+msgstr "O fotografie valorează mai mult decât o mie de cuvinte"
+
+#: post-content.php:28
+msgid "Headings are separate blocks as well, which helps with the outline and organization of your content."
+msgstr "Subtitlurile sunt și ele blocuri separate, care te ajută la conturarea și organizarea conținutului."
+
+#: post-content.php:24
+msgid "... like this one, which is right aligned."
+msgstr "... ca acesta, care este aliniat corect."
+
+#: post-content.php:20
+msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
+msgstr "Ceea ce citești acum este un <strong>bloc text</strong>, care este blocul de bază. Blocul text are comenzi proprii pentru a fi mutat fără nicio restricție oriunde în articol."
+
+#: post-content.php:42
+msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
+msgstr "Dacă tema ta îl suportă, vei vedea butonul „mare” în bara de unelte pentru imagini. Încearcă-l."
+
+#: post-content.php:69
+msgid "Layout blocks, like Buttons, Hero Images, Separators, etc."
+msgstr "Blocuri de aspect, cum ar fi butoane, imagini Hero, separatori etc."
+
+#: post-content.php:52
+msgid "The <em>Inserter</em> Tool"
+msgstr "Instrumentul <em>Inserări</em>"
+
+#: post-content.php:36
+msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
+msgstr "Gestionarea cu maximă atenție a imaginilor și elementelor media este punctul central al noului editor. Sperăm că toate aspectele legate de adăugarea de texte asociate sau de lățimea completă a imaginilor îți vor părea mult mai ușoare și mai robuste decât înainte."
+
+#: post-content.php:16
+msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
+msgstr "Scopul acestui editor nou este de a face mai simplă și mai plăcută adăugarea unui conținut bogat în WordPress. Acest articol este compus în totalitate din <em>bucăți de conținut</em> - ceva similar cu piesele LEGO - pe care le poți muta și totodată să interacționezi cu ele. Mută cursorul în toate părțile și vei observa că diferite blocuri se luminează cu contururi și săgeți. Apasă pe săgeți pentru a repoziționa rapid blocurile, fără teamă că pierzi lucruri în procesul de copiere și plasare."
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Imaginează-ți că tot ceea ce poate face WordPress este disponibil rapid și în același loc, pe o interfață. Nu trebuie să ai cunoștințe despre taguri HTML, clase sau să-ți amintești sintaxa complicată a scurt-codurilor. Acesta este spiritul din spatele înserărilor - butonul <code>(+)</code> pe care îl vei vedea peste tot în editor - care îți permite să răsfoiești toate blocurile de conținut disponibile și să le adaugi în articolul tău. Modulele și temele pot să-și înregistreze propriile lor blocuri, deschizând tot felul de posibilități pentru editare, redactare și publicare."
+
+#: post-content.php:11
+msgid "Of Mountains &amp; Printing Presses"
+msgstr "De munți și prese de tipărire"
+
+#: post-content.php:70
+msgid "And <em>Lists</em> like this one of course :)"
+msgstr "Și <em>liste</em> ca aceasta, bineînțeles :)"
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-collections-controller.php:87
+msgid "The page number requested is larger than the number of pages available."
+msgstr "Numărul paginii solicitate este mai mare decât numărul de pagini disponibile."
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+#: lib/class-wp-theme-json-gutenberg.php:3709
+#: build/block-library/index.js:53637 build/components/index.js:58923
+msgid "Small"
+msgstr "Mic"
+
+#: lib/compat/wordpress-6.5/fonts/class-wp-rest-font-faces-controller.php:79
+msgid "Unique identifier for the font face."
+msgstr "Identificator unic pentru Font-face."
+
+#: build/block-library/blocks/archives.php:30
+msgid "Archives"
+msgstr "Arhive"
+
+#: lib/init.php:36 lib/init.php:37
+msgid "Support"
+msgstr "Suport"
+
+#: build/block-library/blocks/latest-comments.php:144
+msgid "No comments to show."
+msgstr "Niciun comentariu de arătat."
+
+#. translators: 1: author name (inside <a> or <span> tag, based on if they have
+#. a URL), 2: post title related to this comment
+#: build/block-library/blocks/latest-comments.php:102
+msgid "%1$s on %2$s"
+msgstr "%1$s pe %2$s"
+
+#: build/block-library/blocks/archives.php:53
+msgid "Select Month"
+msgstr "Selectează luna"
+
+#: build/block-library/blocks/archives.php:62
+msgid "Select Post"
+msgstr "Selectează articolul"
+
+#: build/block-library/blocks/archives.php:59
+msgid "Select Week"
+msgstr "Selectează săptămâna"
+
+#: build/block-library/blocks/archives.php:56
+msgid "Select Day"
+msgstr "Selectează ziua"
+
+#: build/block-library/blocks/archives.php:50
+msgid "Select Year"
+msgstr "Selectează anul"
+
+#: lib/init.php:39
+msgid "https://wordpress.org/support/plugin/gutenberg/"
+msgstr "https://wordpress.org/support/plugin/gutenberg/"
+
+#. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+#: lib/class-wp-theme-json-gutenberg.php:3746 build/block-editor/index.js:12695
+#: build/block-library/index.js:53643 build/components/index.js:58923
+msgid "Large"
+msgstr "Mare"
+
+#: build/block-library/blocks/embed/block.json
+msgctxt "block description"
+msgid "Add a block that displays content pulled from other sites, like Twitter or YouTube."
+msgstr "Adaugă un bloc care afișează conținut extras de pe alte site-uri, cum ar fi Twitter sau YouTube."
+
+#: build/block-library/blocks/query-pagination.php:26
+msgid "Pagination"
+msgstr "Paginație"
+
+#: lib/experimental/navigation-theme-opt-in.php:91
+#: lib/experimental/navigation-theme-opt-in.php:96
+#: build/edit-widgets/index.js:3217 build/editor/index.js:24087
+#: build/edit-widgets/index.min.js:3599 build/editor/index.min.js:27372
+msgid "Block"
+msgstr "Bloc"
+
+#: build/block-library/blocks/image.php:232
+#: build/block-library/blocks/navigation.php:487
+#: build/block-editor/index.js:70912 build/block-editor/index.js:72657
+#: build/block-library/index.js:32722 build/block-library/index.js:34921
+#: build/block-library/index.js:60255 build/components/index.js:46717
+#: build/components/index.js:63271 build/edit-site/index.js:12940
+#: build/edit-site/index.js:23569 build/edit-widgets/index.js:4325
+#: build/editor/index.js:18941 build/editor/index.js:20630
+#: build/editor/index.js:21662 build/edit-widgets/index.min.js:4952
+#: build/editor/index.min.js:20980 build/editor/index.min.js:23177
+#: build/editor/index.min.js:24260
+msgid "Close"
+msgstr "Închide"
+
+#: build/block-library/blocks/comment-edit-link.php:47
+#: build/block-editor/index.js:68177 build/block-editor/index.js:70803
+#: build/block-library/index.js:6354 build/block-library/index.js:8616
+#: build/block-library/index.js:9733 build/block-library/index.js:37994
+#: build/block-library/index.js:38250 build/block-library/index.js:38253
+#: build/block-library/index.js:38255 build/block-library/index.js:58912
+#: build/block-library/index.js:60164 build/edit-post/index.js:3234
+#: build/edit-site/index.js:13503 build/edit-site/index.js:25168
+#: build/edit-site/index.js:33342 build/edit-site/index.js:37978
+#: build/edit-site/index.js:39001 build/edit-site/index.js:39027
+#: build/edit-site/index.js:39764 build/edit-site/index.js:40202
+#: build/edit-post/index.min.js:3496
+msgid "Edit"
+msgstr "Editează"
+
+#: build/block-library/blocks/categories.php:37
+#: build/block-library/index.js:6071 build/block-library/index.js:6128
+#: build/components/index.js:63993 build/edit-site/index.js:40090
+#: build/edit-site/index.js:40099 build/patterns/index.js:412
+#: build/patterns/index.min.js:439
+msgid "Categories"
+msgstr "Categorii"
+
+#: build/block-library/blocks/read-more.php:39
+#: build/block-library/index.js:31951 build/block-library/index.js:49450
+msgid "Read more"
+msgstr "Citește mai mult"
+
+#. translators: displayed when a page has an empty title.
+#: build/block-library/blocks/latest-comments.php:31
+#: build/block-library/blocks/latest-posts.php:76
+#: build/block-library/blocks/rss.php:37 build/block-library/index.js:27845
+#: build/block-library/index.js:27874 build/block-library/index.js:38172
+#: build/core-commands/index.js:318 build/core-commands/index.js:412
+#: build/core-data/index.js:22466 build/edit-site/index.js:33524
+#: build/edit-site/index.js:33618 build/edit-site/index.js:36867
+#: build/edit-site/index.js:36878 build/edit-site/index.js:38828
+#: build/edit-site/index.js:39019 build/edit-site/index.js:39877
+#: build/editor/index.js:10621 build/editor/index.js:15356
+#: build/core-commands/index.min.js:257 build/core-commands/index.min.js:380
+#: build/editor/index.min.js:11363 build/editor/index.min.js:16863
+msgid "(no title)"
+msgstr "(fără titlu)"
+
+#: lib/init.php:53
+msgid "Experiments"
+msgstr "Experimente"
+
+#: gutenberg.php:43
+msgid "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/code/getting-started-with-code-contribution.md\">contributing</a> file for more information."
+msgstr "Modul de dezvoltare Gutenberg necesită să fie construite fișiere. Rulează <code>npm install</code> pentru a instala dependențe, <code>npm run build</code> pentru a construi fișierele sau <code>npm run dev</code> pentru a construi fișierele și pentru a urmări modificările. Pentru mai multe informații, citește fișierul <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/code/getting-started-with-code-contribution.md\">contribuie</a>."
+
+#: lib/compat/wordpress-6.4/class-gutenberg-rest-global-styles-revisions-controller-6-4.php:124
+msgid "Unique identifier for the revision."
+msgstr "Identificator unic pentru revizie."
+
+#: lib/init.php:43 lib/init.php:44
+msgid "Documentation"
+msgstr "Documentație"
+
+#. Author of the plugin
+#: gutenberg.php
+msgid "Gutenberg Team"
+msgstr "Echipa Gutenberg"
+
+#. Plugin URI of the plugin
+#: gutenberg.php
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
+
+#. Plugin Name of the plugin
+#: gutenberg.php lib/init.php:17 lib/init.php:18
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: lib/init.php:27 lib/init.php:28
+msgid "Demo"
+msgstr "Demonstrație"
+
+#. translators: Date/Time format, see
+#. https://www.php.net/manual/datetime.format.php
+#: lib/compat/wordpress-6.5/script-loader.php:85
+msgid "F j, Y g:i a"
+msgstr "j F Y G:i"
+
+#. translators: Date format, see https://www.php.net/manual/datetime.format.php
+#: lib/compat/wordpress-6.5/script-loader.php:83
+msgid "F j, Y"
+msgstr "j F Y"
+
+#. translators: Time format, see https://www.php.net/manual/datetime.format.php
+#: lib/compat/wordpress-6.5/script-loader.php:81
+msgid "g:i a"
+msgstr "G:i"
+
+#. translators: %s: Duration.
+#: lib/compat/wordpress-6.5/script-loader.php:51
+msgid "%s ago"
+msgstr "Acum %s"
+
+#. translators: %s: Duration.
+#: lib/compat/wordpress-6.5/script-loader.php:49
+msgid "%s from now"
+msgstr "%s de acum"
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:30
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Pentru a funcționa corect, Gutenberg necesită WordPress %s sau o versiune ulterioară. Te rog actualizează WordPress înainte de a activa Gutenberg."
+
+#: build/block-library/blocks/categories.php:36
+#: build/block-library/index.js:6073
+msgid "Select Category"
+msgstr "Selectează o categorie"

@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('aicp-api-admin-menu', 'aicp-api-assistants', 'aicp-api-content-templates', 'aicp-api-services', 'aicp-helpers', 'aicp-icons', 'lodash', 'react', 'wp-components', 'wp-compose', 'wp-data', 'wp-date', 'wp-editor', 'wp-element', 'wp-i18n', 'wp-keycodes', 'wp-notices', 'wp-primitives'), 'version' => 'eedcd2ee20e233af7ea2');

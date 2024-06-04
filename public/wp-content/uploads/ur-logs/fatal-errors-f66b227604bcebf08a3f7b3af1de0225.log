@@ -1,0 +1,2 @@
+2024-06-04T21:14:33+03:00 CRITICAL Cannot redeclare enqueue_favorite_scripts() (previously declared in /home/gopuyagadi0032/web/supreme-walrus-b89223.instawp.xyz/public_html/wp-content/themes/twentytwentyfour/functions.php:183) in /home/gopuyagadi0032/web/supreme-walrus-b89223.instawp.xyz/public_html/wp-content/themes/twentytwentyfour/functions.php on line 257
+
